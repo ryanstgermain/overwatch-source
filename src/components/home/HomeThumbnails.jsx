@@ -32,22 +32,18 @@ const HomeThumbnails = () => {
       <div className='home-thumbnails'>
         <Card
           header='Overwatch Heros'
-          description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
           extra={heros}
         />
         <Card
           header='Overwatch Maps'
-          description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
           extra={maps}
         />
         <Card
           header='Overwatch Game Modes'
-          description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
           extra={modes}
         />
         <Card
           header='Overwatch League'
-          description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
           extra={league}
         />
       </div>
