@@ -8,7 +8,7 @@ const Footer= () => {
       <div className='footer'>
         <div>
           <h2 className='footer-title'>Overwatch Source</h2>
-          <Divider />
+          <Divider section />
         </div>
         <div className='footer-content'>
           <div>
@@ -62,6 +62,7 @@ const Footer= () => {
       {/* <Route path='/overwatch-heros/' component={HerosPage} /> */}
       {/* <Route path='/overwatch-maps/' component={MapsPage} /> */}
       {/* <Route path='/overwatch-game-modes/' component={GameModePage} /> */}
+      {/* <Route path='/overwatch-league/' component={LeaguePage} /> */}
     </Router>
   );
 }
