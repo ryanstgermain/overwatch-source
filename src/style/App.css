@@ -7,3 +7,22 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* Footer */
+
+.footer {
+    /* margin-bottom: -5.5em; */
+    position: inherit;
+    background-color: #c8c8c8;
+    height: 26em;
+    bottom: 0;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <div>
           <h3>
-            <Link to='/about-overwatch'>About Overwatch</Link>
+            <Link to='/overwatch-about'>About Overwatch</Link>
           </h3>
           <h3>
             <Link to='/about-us'>About Us</Link>
@@ -21,11 +21,12 @@ const Header = () => {
             <Link to='/contact-us'>Contact Us</Link>
           </h3>
         </div>
-        {/* <Route path='/about-overwatch' component={AboutOverwatch} /> */}
-        {/* <Route path='/about-us/' component={AboutPage} /> */}
+        
       </div>  
+      {/* <Route path='/overwatch-about' component={AboutOverwatch} /> */}
+      {/* <Route path='/about-us' component={AboutPage} /> */}
+      {/* <Route path='/contact-us' component={ContactPage} /> */}
     </Router>
-    
   );
 }
 
