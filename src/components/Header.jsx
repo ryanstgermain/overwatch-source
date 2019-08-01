@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Router>
+    <div>
       <div className='header'>
         <div className='header-title'>
           <h1>
@@ -11,6 +11,9 @@ const Header = () => {
           </h1>  
         </div>
         <ul className='header-links'>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
           <li>
             <Link to='/overwatch-about'>About Overwatch</Link>
           </li>
@@ -21,12 +24,8 @@ const Header = () => {
             <Link to='/contact-us'>Contact Us</Link>
           </li>
         </ul>
-        
-      </div>  
-      {/* <Route path='/overwatch-about' component={AboutOverwatch} /> */}
-      {/* <Route path='/about-us' component={AboutPage} /> */}
-      {/* <Route path='/contact-us' component={ContactPage} /> */}
-    </Router>
+      </div> 
+    </div>
   );
 }
 

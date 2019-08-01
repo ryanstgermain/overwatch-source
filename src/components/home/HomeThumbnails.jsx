@@ -1,30 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Container, Card, Button } from 'semantic-ui-react'
 
 const HomeThumbnails = () => {
   const heros = (
-    <Button>
-      <Link to='/overwatch-heros'>View</Link>
-    </Button>
+    <Link to='/overwatch-heros'>
+      <Button>View</Button>
+    </Link>
   )
 
   const maps = (
-    <Button>
-      <Link to='/overwatch-maps'>View</Link>
-    </Button>
+    <Link to='/overwatch-maps'>
+      <Button>View</Button>
+    </Link>
   )
 
   const modes = (
-    <Button>
-      <Link to='/overwatch-game-modes'>View</Link>
-    </Button>
+    <Link to='/overwatch-game-modes'>
+      <Button>View</Button>
+    </Link>
   )
 
   const league = (
-    <Button>
-      <Link to='/overwatch-league'>View</Link>
-    </Button>
+    <Link to='/overwatch-league'>
+      <Button>View</Button>
+    </Link>
   )
 
   return (

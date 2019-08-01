@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Divider } from 'semantic-ui-react'
+import HomePage from '../pages/HomePage';
 
 const Footer= () => {
   return (
-    <Router>
+    <div>
       <div className='footer'>
         <div>
           <Divider fitted hidden />
@@ -16,55 +17,59 @@ const Footer= () => {
             <h4>Explore</h4>
             <Divider />
             <div>
-              <h5>
-                <Link to='/overwatch-heros/'>Overwatch Heros</Link>
-              </h5>
-              <h5>
-                <Link to='/overwatch-maps/'>Overwatch Maps</Link>
-              </h5>
-              <h5>
-                <Link to='/overwatch-game-modes/'>Overwatch Game Modes</Link>
-              </h5>
-              <h5>
-                <Link to='/overwatch-league/'>Overwatch League</Link>
-              </h5>
-            </div>
-          </div>
-          <div>
-            <h4>Overview</h4>
-            <Divider />
-            <div>
-              <h5>
-                <Link to='/overwatch-about'>About Overwatch</Link>
-              </h5>
-              <h5>
-                <Link to='/about-us'>About Us</Link>
-              </h5>
-              <h5>
-                <Link to='/contact-us'>Contact Us</Link>
-              </h5>
+              <Link to='/overwatch-heros'>
+                <h5>Overwatch Heros</h5>
+              </Link>
+              <Link to='/overwatch-maps'>
+                <h5>Overwatch Maps</h5>
+              </Link>
+              <Link to='/overwatch-game-modes'>
+                <h5>Overwatch Game Modes</h5>
+              </Link>
+              <Link to='/overwatch-league'>
+                <h5>Overwatch League</h5>
+              </Link>
             </div>
           </div>
           <div>
             <h4>Official Overwatch Links</h4>
             <Divider />
-            <div>
-              <h5>Website</h5>
-              <h5>Twitter</h5>
-              <h5>Facebook</h5>
-              <h5>Instagram</h5>
-            </div>
+            <ul className='footer-list'>
+              <a href='' target='_blank' rel='noopener noreferrer'>
+                <li>Website</li>
+              </a>
+              <a href='' target='_blank' rel='noopener noreferrer'>
+                <li>Twitter</li>  
+              </a>
+              <a href='' target='_blank' rel='noopener noreferrer'>
+                <li>Facebook</li>  
+              </a>
+              <a href='' target='_blank' rel='noopener noreferrer'>
+                <li>Instagram</li>                
+              </a>
+            </ul>
           </div>  
+          <div>
+            <h4>Overview</h4>
+            <Divider />
+            <div>
+              <Link to='/'>
+                <h5>Home</h5>
+              </Link>
+              <Link to='/overwatch-about'>
+                <h5>About Overwatch</h5>
+              </Link>
+              <Link to='/about-us'>
+                <h5>About Us</h5>
+              </Link>
+              <Link to='/contact-us'>
+                <h5>Contact Us</h5>
+              </Link>
+            </div>
+          </div>
         </div>
       </div> 
-      {/* <Route path='/overwatch-about' component={AboutOverwatch} /> */}
-      {/* <Route path='/about-us' component={AboutPage} /> */}
-      {/* <Route path='/contact-us' component={ContactPage} />  */}
-      {/* <Route path='/overwatch-heros/' component={HerosPage} /> */}
-      {/* <Route path='/overwatch-maps/' component={MapsPage} /> */}
-      {/* <Route path='/overwatch-game-modes/' component={GameModePage} /> */}
-      {/* <Route path='/overwatch-league/' component={LeaguePage} /> */}
-    </Router>
+    </div>
   );
 }
 

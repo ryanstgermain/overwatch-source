@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HomeBanner from '../components/home/HomeBanner';
-import HomeButton from '../components/home/HomeButton';
+import HomeSearch from '../components/home/HomeSearch';
 import HomeThumbnails from '../components/home/HomeThumbnails'
 
 class HomePage extends Component {
@@ -8,7 +8,7 @@ class HomePage extends Component {
     return (
       <>
         <HomeBanner />
-        <HomeButton />
+        <HomeSearch />
         <HomeThumbnails />
       </>
     );
