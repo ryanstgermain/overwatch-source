@@ -7,6 +7,7 @@ const Footer= () => {
     <Router>
       <div className='footer'>
         <div>
+          <Divider fitted hidden />
           <h2 className='footer-title'>Overwatch Source</h2>
           <Divider section />
         </div>

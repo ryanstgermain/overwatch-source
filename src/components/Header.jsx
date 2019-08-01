@@ -5,22 +5,22 @@ const Header = () => {
   return (
     <Router>
       <div className='header'>
-        <div>
+        <div className='header-title'>
           <h1>
             <Link to='/'>Overwatch Source</Link>
           </h1>  
         </div>
-        <div>
-          <h3>
+        <ul className='header-links'>
+          <li>
             <Link to='/overwatch-about'>About Overwatch</Link>
-          </h3>
-          <h3>
+          </li>
+          <li>
             <Link to='/about-us'>About Us</Link>
-          </h3>
-          <h3>
+          </li>
+          <li>
             <Link to='/contact-us'>Contact Us</Link>
-          </h3>
-        </div>
+          </li>
+        </ul>
         
       </div>  
       {/* <Route path='/overwatch-about' component={AboutOverwatch} /> */}
