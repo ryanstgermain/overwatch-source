@@ -42,7 +42,6 @@ const HomeSearch = () => {
               />
             </Grid.Column>
           </Grid>
-          <Divider vertical>AND</Divider>
         </Segment>
       </div>
       <div className='home-search-section'>
