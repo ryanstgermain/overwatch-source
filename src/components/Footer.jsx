@@ -9,12 +9,12 @@ const Footer= () => {
         <div>
           <Divider fitted hidden />
           <h2 className='footer-title'>Overwatch Source</h2>
-          <Divider section />
+          <Divider section inverted />
         </div>
         <div className='footer-content'>
           <div>
             <h4>Explore</h4>
-            <Divider />
+            <Divider inverted />
             <div>
               <Link to='/overwatch-heros'>
                 <h5>Overwatch Heros</h5>
@@ -32,7 +32,7 @@ const Footer= () => {
           </div>
           <div>
             <h4>Official Overwatch Links</h4>
-            <Divider />
+            <Divider inverted />
             <ul className='footer-list'>
               <a href='' target='_blank' rel='noopener noreferrer'>
                 <li>Website</li>
@@ -50,7 +50,7 @@ const Footer= () => {
           </div>  
           <div>
             <h4>Overview</h4>
-            <Divider />
+            <Divider inverted />
             <div>
               <Link to='/'>
                 <h5>Home</h5>

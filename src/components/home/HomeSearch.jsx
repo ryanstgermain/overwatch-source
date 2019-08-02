@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Divider, Input, Card, Grid, Segment, Icon } from 'semantic-ui-react'
+import { Button, Container, Divider, Input, Card, Grid, Segment } from 'semantic-ui-react'
 
 const HomeSearch = () => {
   const career = [
