@@ -44,8 +44,10 @@
 
 .home-data-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: baseline;
+    padding: 2.5em
 }
 
 .home-search-section {

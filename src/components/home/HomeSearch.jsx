@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Divider, Input, Card } from 'semantic-ui-react'
+import { Button, Container, Divider, Input, Card, Grid, Segment, Icon } from 'semantic-ui-react'
 
 const HomeSearch = () => {
   const career = [
@@ -25,14 +25,23 @@ const HomeSearch = () => {
         </Link>
       </div>
       <div className='home-data-section'>
-        <Card
-          header='View Overwatch Career Stats'
-          extra={career} 
-        />
-        <Card
-          header='View Overwatch League Data'
-          extra={league}
-        />
+        <Segment>
+          <Grid columns={2} relaxed='very'>
+            <Grid.Column>
+              <Card
+                header='View Overwatch Career Stats'
+                extra={career} 
+              />
+            </Grid.Column>
+            <Grid.Column>
+              <Card
+                header='View Overwatch League Data'
+                extra={league}
+              />
+            </Grid.Column>
+          </Grid>
+          <Divider vertical>AND</Divider>
+        </Segment>
       </div>
       <div className='home-search-section'>
         <span>Looking for an Overwatch profile? Search for one below.</span>
