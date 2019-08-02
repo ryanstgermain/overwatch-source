@@ -34,24 +34,28 @@ const HomeThumbnails = () => {
           <Card
             header='Overwatch Heros'
             extra={heros}
+            color='orange'
           />  
         </div>
         <div className='home-thumbnail-shadows'>
           <Card
             header='Overwatch Maps'
             extra={maps}
+            color='blue'
           />  
         </div>
         <div className='home-thumbnail-shadows'>
           <Card
             header='Overwatch Game Modes'
             extra={modes}
+            color='pink'
           />  
         </div>
         <div className='home-thumbnail-shadows'>
           <Card
             header='Overwatch League'
             extra={league}
+            color='green'
           />  
         </div>
       </div>

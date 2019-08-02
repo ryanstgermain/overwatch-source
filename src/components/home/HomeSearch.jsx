@@ -31,12 +31,14 @@ const HomeSearch = () => {
               <Card
                 header='View Overwatch Career Stats'
                 extra={career} 
+                color='grey'
               />
             </Grid.Column>
             <Grid.Column>
               <Card
                 header='View Overwatch League Data'
                 extra={league}
+                color='grey'
               />
             </Grid.Column>
           </Grid>
