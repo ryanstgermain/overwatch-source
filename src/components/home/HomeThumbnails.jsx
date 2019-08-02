@@ -30,22 +30,30 @@ const HomeThumbnails = () => {
   return (
     <Container fluid textAlign='center'>
       <div className='home-thumbnails'>
-        <Card
-          header='Overwatch Heros'
-          extra={heros}
-        />
-        <Card
-          header='Overwatch Maps'
-          extra={maps}
-        />
-        <Card
-          header='Overwatch Game Modes'
-          extra={modes}
-        />
-        <Card
-          header='Overwatch League'
-          extra={league}
-        />
+        <div className='home-thumbnail-shadows'>
+          <Card
+            header='Overwatch Heros'
+            extra={heros}
+          />  
+        </div>
+        <div className='home-thumbnail-shadows'>
+          <Card
+            header='Overwatch Maps'
+            extra={maps}
+          />  
+        </div>
+        <div className='home-thumbnail-shadows'>
+          <Card
+            header='Overwatch Game Modes'
+            extra={modes}
+          />  
+        </div>
+        <div className='home-thumbnail-shadows'>
+          <Card
+            header='Overwatch League'
+            extra={league}
+          />  
+        </div>
       </div>
     </Container>
   );

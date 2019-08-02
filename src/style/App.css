@@ -5,7 +5,6 @@ body {
 /* Header */
 
 .header {
-    /* background-color: #c8c8c8; */
     background-color: #333333;
     height: 8em;
     width: 100%;
@@ -31,7 +30,6 @@ body {
 /* Home Page */
 
 .home-banner {
-    /* background-color: #c8c8c841;  */
     background-color: #8c8c8c;
     padding: 1.5em;
     height: 12em;
@@ -71,7 +69,6 @@ body {
 }
 
 .home-thumbnails {
-    /* background-color: #c8c8c841;  */
     background: #8c8c8c;
     display: flex;
     justify-content: space-evenly;
@@ -83,11 +80,16 @@ body {
     box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
 }
 
+.home-thumbnail-shadows {
+    -webkit-box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
+}
+
 /* Footer */
 
 .footer {
     background-color: #333333;
-    /* background-color: #c8c8c8; */
     height: 26em;
     bottom: 0;
 }
