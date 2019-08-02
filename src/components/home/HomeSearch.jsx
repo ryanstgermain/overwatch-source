@@ -1,8 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Divider, Input } from 'semantic-ui-react'
+import { Button, Container, Divider, Input, Card } from 'semantic-ui-react'
 
 const HomeSearch = () => {
+  const career = [
+    <Link to='/overwatch-career-stats'>
+      <Button>Overwatch Career Stats</Button>
+    </Link>
+  ]
+  
+  const league = [
+    <Link to='/overwatch-league'>
+      <Button>Overwatch League Data</Button>
+    </Link>
+  ]
+
   return (
     <Container text textAlign='center'>
       <div className='home-learn-section'>
@@ -11,6 +23,16 @@ const HomeSearch = () => {
         <Link to='about-us'>
           <Button className='home-learn-button'>Learn More</Button>
         </Link>
+      </div>
+      <div className='home-data-section'>
+        <Card
+          header='View Overwatch Career Stats'
+          extra={career} 
+        />
+        <Card
+          header='View Overwatch League Data'
+          extra={league}
+        />
       </div>
       <div className='home-search-section'>
         <span>Looking for an Overwatch profile? Search for one below.</span>

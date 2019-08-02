@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Divider } from 'semantic-ui-react'
-import HomePage from '../pages/HomePage';
 
 const Footer= () => {
   return (
