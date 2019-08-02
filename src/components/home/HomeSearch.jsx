@@ -5,13 +5,13 @@ import { Button, Container, Divider, Input, Card } from 'semantic-ui-react'
 const HomeSearch = () => {
   const career = [
     <Link to='/overwatch-career-stats'>
-      <Button>Overwatch Career Stats</Button>
+      <Button>Search</Button>
     </Link>
   ]
   
   const league = [
     <Link to='/overwatch-league'>
-      <Button>Overwatch League Data</Button>
+      <Button>Search</Button>
     </Link>
   ]
 
