@@ -7,7 +7,7 @@ const Header = () => {
       <div className='header'>
         <div className='header-title'>
           <h1>
-            <Link to='/'>Overwatch Source</Link>
+            <Link to='/' className='header-title-font'>Overwatch Source</Link>
           </h1>  
         </div>
         <ul className='header-links'>

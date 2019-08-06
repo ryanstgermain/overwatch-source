@@ -2,31 +2,36 @@ body {
     background-color: #f2f1ed;
 }
 
-h1 {
-    font-family: 'Bignoodletoo';
-    font-size: 3em;
-}
-
 h2 {
     font-family: 'bg-boldest-it';
     font-size: 2em;
+    color: #FF9D00;
 }
 
 h4 {
     font-family: 'bg-low-it';
     font-size: 1.5em;
+    color: #405275;
 }
 
 h5 {
     font-family: 'Geosans';
     font-size: 1.2em;
+    color: #405275;
+}
+
+h5:hover {
+    font-family: 'Geosans';
+    font-size: 1.2em;
+    color: #242f42;
 }
 
 span {
     /* font-family: 'bg-medium'; */
     font-size: 1.5em;
     /* font-family: 'Bebas' */
-    font-family: 'Geosans'
+    font-family: 'Geosans';
+    color: #405275;
 }
 
 .font-fam {
@@ -117,10 +122,29 @@ span {
 }
 
 .header-link-font {
-    /* font-family: 'bg-low'; */
     font-family: 'Geosans';
-    /* font-size: 2em; */
     font-size: 1.5em;
+    color: #405275;
+}
+
+.header-title-font {
+    font-family: 'Bignoodletoo';
+    font-size: 2em;
+    /* color: #FF9D00; */
+    color: #405275;
+}
+
+.header-title-font:hover {
+    font-family: 'Bignoodletoo';
+    font-size: 2em;
+    /* color: rgb(172, 107, 2); */
+    color: #242f42;
+}
+
+.header-link-font:hover {
+    font-family: 'Geosans';
+    font-size: 1.5em;
+    color: #242f42;
 }
 
 .header-title {
@@ -220,6 +244,14 @@ span {
     font-family: 'Geosans';
     font-size: 1.2em;
     font-weight: 800;
+    color: #405275;
+}
+
+.footer-font:hover {
+    font-family: 'Geosans';
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #242f42;
 }
 
 .footer-list {
