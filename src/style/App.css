@@ -107,8 +107,16 @@ h5:hover {
 
 .header-link-font {
     font-family: 'Geosans';
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #405275;
+    font-weight: bold;
+}
+
+.header-link-font:hover {
+    font-family: 'Geosans';
+    font-size: 1.4em;
+    color: #242f42;
+    font-weight: bold;
 }
 
 .header-title-font {
@@ -123,12 +131,6 @@ h5:hover {
     color: #242f42;
 }
 
-.header-link-font:hover {
-    font-family: 'Geosans';
-    font-size: 1.5em;
-    color: #242f42;
-}
-
 .header-title {
     display: flex;
     align-items: flex-end;
@@ -139,9 +141,12 @@ h5:hover {
 /* Home Page */
 
 .home-banner {
-    /* background-color: #8c8c8c; */
+    background-color: #a1a1a1;
     padding: 1.5em;
     height: 12em;
+    -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
 }
 
 .home-banner-font {
@@ -202,6 +207,10 @@ h5:hover {
     -webkit-box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
     box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
+}
+
+.view-button {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {

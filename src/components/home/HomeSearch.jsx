@@ -5,13 +5,13 @@ import { Button, Container, Divider, Input, Card, Grid, Segment } from 'semantic
 const HomeSearch = () => {
   const career = [
     <Link to='/overwatch-career-stats'>
-      <Button>Search</Button>
+      <Button className='view-button'>Search</Button>
     </Link>
   ]
   
   const league = [
     <Link to='/overwatch-league'>
-      <Button>Search</Button>
+      <Button className='view-button'>Search</Button>
     </Link>
   ]
 
@@ -25,24 +25,16 @@ const HomeSearch = () => {
         </Link>
       </div>
       <div className='home-data-section'>
-        <Segment>
-          <Grid columns={2} relaxed='very'>
-            <Grid.Column>
-              <Card
-                header='View Overwatch Career Stats'
-                extra={career} 
-                color='grey'
-              />
-            </Grid.Column>
-            <Grid.Column>
-              <Card
-                header='View Overwatch League Data'
-                extra={league}
-                color='grey'
-              />
-            </Grid.Column>
-          </Grid>
-        </Segment>
+        <Card
+          header='View Overwatch Career Stats'
+          extra={career} 
+          color='orange'
+        />
+        <Card
+          header='View Overwatch League Data'
+          extra={league}
+          color='orange'
+        />
       </div>
       <div className='home-search-section'>
         <span className='home-font'>Looking for an Overwatch profile? Search for one below.</span>

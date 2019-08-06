@@ -5,25 +5,25 @@ import { Container, Card, Button } from 'semantic-ui-react'
 const HomeThumbnails = () => {
   const heros = (
     <Link to='/overwatch-heros'>
-      <Button>View</Button>
+      <Button className='view-button'>View</Button>
     </Link>
   )
 
   const maps = (
     <Link to='/overwatch-maps'>
-      <Button>View</Button>
+      <Button className='view-button'>View</Button>
     </Link>
   )
 
   const modes = (
     <Link to='/overwatch-game-modes'>
-      <Button>View</Button>
+      <Button className='view-button'>View</Button>
     </Link>
   )
 
   const league = (
     <Link to='/overwatch-league'>
-      <Button>View</Button>
+      <Button className='view-button'>View</Button>
     </Link>
   )
 
