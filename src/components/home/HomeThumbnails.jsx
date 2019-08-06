@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Card, Button } from 'semantic-ui-react'
+import { Card, Button } from 'semantic-ui-react'
 
 const HomeThumbnails = () => {
   const heros = (
@@ -28,36 +28,34 @@ const HomeThumbnails = () => {
   )
 
   return (
-    <div>
-      <div className='home-thumbnails'>
-        <div className='home-thumbnail-shadows'>
-          <Card
-            header='Overwatch Heros'
-            extra={heros}
-            color='orange'
-          />  
-        </div>
-        <div className='home-thumbnail-shadows'>
-          <Card
-            header='Overwatch Maps'
-            extra={maps}
-            color='blue'
-          />  
-        </div>
-        <div className='home-thumbnail-shadows'>
-          <Card
-            header='Overwatch Game Modes'
-            extra={modes}
-            color='pink'
-          />  
-        </div>
-        <div className='home-thumbnail-shadows'>
-          <Card
-            header='Overwatch League'
-            extra={league}
-            color='green'
-          />  
-        </div>
+    <div className='home-thumbnails'>
+      <div>
+        <Card
+          header='Overwatch Heros'
+          extra={heros}
+          color='orange'
+        />  
+      </div>
+      <div>
+        <Card
+          header='Overwatch Maps'
+          extra={maps}
+          color='blue'
+        />  
+      </div>
+      <div>
+        <Card
+          header='Overwatch Game Modes'
+          extra={modes}
+          color='pink'
+        />  
+      </div>
+      <div>
+        <Card
+          header='Overwatch League'
+          extra={league}
+          color='green'
+        />  
       </div>
     </div>
   );
