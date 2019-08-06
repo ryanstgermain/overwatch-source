@@ -18,7 +18,7 @@ const HomeSearch = () => {
   return (
     <Container text textAlign='center'>
       <div className='home-learn-section'>
-        <span>If you would like to know more about Overwatch Source, click the button below.</span>
+        <span className='home-font'>If you would like to know more about Overwatch Source, click the button below.</span>
         <Divider />
         <Link to='about-us'>
           <Button className='home-learn-button'>Learn More</Button>
@@ -45,7 +45,7 @@ const HomeSearch = () => {
         </Segment>
       </div>
       <div className='home-search-section'>
-        <span>Looking for an Overwatch profile? Search for one below.</span>
+        <span className='home-font'>Looking for an Overwatch profile? Search for one below.</span>
         <Divider />
         <Input action='Search' placeholder='Search...' />
       </div>

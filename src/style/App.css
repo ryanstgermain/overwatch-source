@@ -26,81 +26,65 @@ h5:hover {
     color: #242f42;
 }
 
-span {
-    /* font-family: 'bg-medium'; */
-    font-size: 1.5em;
-    /* font-family: 'Bebas' */
-    font-family: 'Geosans';
-    color: #405275;
-}
-
-.font-fam {
-    font-family: "Major Mono Display", monospace;
-    font-family: "Poiret One", cursive;
-    font-family: "Quicksand", sans-serif;
-    font-family: "Raleway Dots", cursive;
-    font-family: "Thasadith", sans-serif;
-  }
-
-  @font-face {
+@font-face {
     font-family: Bebas;
     src: url(../fonts/BebasNeue-Regular.ttf);
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: Bignoodletoo;
     src: url(../fonts/bignoodletoo.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: Geosans;
     src: url(../fonts/GeosansLight-Oblique.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-boldest-it;
     src: url(../fonts/built-bd-it.ttf);
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: bg-boldest;
     src: url(../fonts/built-bd.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-thin-it;
     src: url(../fonts/built-el-it.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-low;
     src: url(../fonts/built-lt.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-low-it;
     src: url(../fonts/built-lt-it.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-medium-it;
     src: url(../fonts/built-rg-it.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-medium;
     src: url(../fonts/built-rg.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-bolder-it;
     src: url(../fonts/built-sb-it.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: bg-bolder;
     src: url(../fonts/built-sb.ttf);
-  }
+}
 
 /* Header */
 
@@ -130,14 +114,12 @@ span {
 .header-title-font {
     font-family: 'Bignoodletoo';
     font-size: 2em;
-    /* color: #FF9D00; */
     color: #405275;
 }
 
 .header-title-font:hover {
     font-family: 'Bignoodletoo';
     font-size: 2em;
-    /* color: rgb(172, 107, 2); */
     color: #242f42;
 }
 
@@ -160,9 +142,12 @@ span {
     /* background-color: #8c8c8c; */
     padding: 1.5em;
     height: 12em;
-    /* -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75); */
+}
+
+.home-banner-font {
+    font-size: 2em;
+    font-family: 'Bebas';
+    color: #FF9D00;
 }
 
 .home-learn-section {
@@ -175,6 +160,12 @@ span {
 
 .home-learn-button {
     width: 100%;
+}
+
+.home-font {
+    font-family: 'bg-low-it';
+    font-size: 1.9em;
+    color: #405275;
 }
 
 .home-data-section {
@@ -196,15 +187,15 @@ span {
 }
 
 .home-thumbnails {
-    /* background-color: #8c8c8c; */
+    background-color: #a1a1a1;
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     margin-top: 5em;
     padding: 3.5em;
-    /* -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75); */
+    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
 }
 
 .home-thumbnail-shadows {
