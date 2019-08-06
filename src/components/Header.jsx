@@ -12,16 +12,16 @@ const Header = () => {
         </div>
         <ul className='header-links'>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/' className='header-link-font'>Home</Link>
           </li>
           <li>
-            <Link to='/overwatch-about'>About Overwatch</Link>
+            <Link to='/overwatch-about' className='header-link-font'>About Overwatch</Link>
           </li>
           <li>
-            <Link to='/about-us'>About Us</Link>
+            <Link to='/about-us' className='header-link-font'>About Us</Link>
           </li>
           <li>
-            <Link to='/contact-us'>Contact Us</Link>
+            <Link to='/contact-us' className='header-link-font'>Contact Us</Link>
           </li>
         </ul>
       </div> 

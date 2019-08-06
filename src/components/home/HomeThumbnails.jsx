@@ -28,7 +28,7 @@ const HomeThumbnails = () => {
   )
 
   return (
-    <Container fluid textAlign='center'>
+    <div>
       <div className='home-thumbnails'>
         <div className='home-thumbnail-shadows'>
           <Card
@@ -59,7 +59,7 @@ const HomeThumbnails = () => {
           />  
         </div>
       </div>
-    </Container>
+    </div>
   );
 }
 

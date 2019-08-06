@@ -35,16 +35,16 @@ const Footer= () => {
             <Divider inverted />
             <ul className='footer-list'>
               <a href='' target='_blank' rel='noopener noreferrer'>
-                <li>Website</li>
+                <li className='footer-font'>Website</li>
               </a>
               <a href='' target='_blank' rel='noopener noreferrer'>
-                <li>Twitter</li>  
+                <li className='footer-font'>Twitter</li>  
               </a>
               <a href='' target='_blank' rel='noopener noreferrer'>
-                <li>Facebook</li>  
+                <li className='footer-font'>Facebook</li>  
               </a>
               <a href='' target='_blank' rel='noopener noreferrer'>
-                <li>Instagram</li>                
+                <li className='footer-font'>Instagram</li>                
               </a>
             </ul>
           </div>  

@@ -2,10 +2,106 @@ body {
     background-color: #f2f1ed;
 }
 
+h1 {
+    font-family: 'Bignoodletoo';
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'bg-boldest-it';
+    font-size: 2em;
+}
+
+h4 {
+    font-family: 'bg-low-it';
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: 'Geosans';
+    font-size: 1.2em;
+}
+
+span {
+    /* font-family: 'bg-medium'; */
+    font-size: 1.5em;
+    /* font-family: 'Bebas' */
+    font-family: 'Geosans'
+}
+
+.font-fam {
+    font-family: "Major Mono Display", monospace;
+    font-family: "Poiret One", cursive;
+    font-family: "Quicksand", sans-serif;
+    font-family: "Raleway Dots", cursive;
+    font-family: "Thasadith", sans-serif;
+  }
+
+  @font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Bignoodletoo;
+    src: url(../fonts/bignoodletoo.ttf);
+  }
+
+  @font-face {
+    font-family: Geosans;
+    src: url(../fonts/GeosansLight-Oblique.ttf);
+  }
+
+  @font-face {
+    font-family: bg-boldest-it;
+    src: url(../fonts/built-bd-it.ttf);
+  }
+  
+  @font-face {
+    font-family: bg-boldest;
+    src: url(../fonts/built-bd.ttf);
+  }
+
+  @font-face {
+    font-family: bg-thin-it;
+    src: url(../fonts/built-el-it.ttf);
+  }
+
+  @font-face {
+    font-family: bg-low;
+    src: url(../fonts/built-lt.ttf);
+  }
+
+  @font-face {
+    font-family: bg-low-it;
+    src: url(../fonts/built-lt-it.ttf);
+  }
+
+  @font-face {
+    font-family: bg-medium-it;
+    src: url(../fonts/built-rg-it.ttf);
+  }
+
+  @font-face {
+    font-family: bg-medium;
+    src: url(../fonts/built-rg.ttf);
+  }
+
+  @font-face {
+    font-family: bg-bolder-it;
+    src: url(../fonts/built-sb-it.ttf);
+  }
+
+  @font-face {
+    font-family: bg-bolder;
+    src: url(../fonts/built-sb.ttf);
+  }
+
 /* Header */
 
 .header {
-    background-color: #333333;
+    background-color: #cccccc;
+    /* background-color: #333333; */
     height: 8em;
     width: 100%;
     display: flex;
@@ -20,6 +116,13 @@ body {
     margin-right: 2em;
 }
 
+.header-link-font {
+    /* font-family: 'bg-low'; */
+    font-family: 'Geosans';
+    /* font-size: 2em; */
+    font-size: 1.5em;
+}
+
 .header-title {
     display: flex;
     align-items: flex-end;
@@ -30,12 +133,12 @@ body {
 /* Home Page */
 
 .home-banner {
-    background-color: #8c8c8c;
+    /* background-color: #8c8c8c; */
     padding: 1.5em;
     height: 12em;
-    -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    /* -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75); */
 }
 
 .home-learn-section {
@@ -52,7 +155,7 @@ body {
 
 .home-data-section {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-around;
     align-items: baseline;
     padding: 0.5em;
@@ -69,15 +172,15 @@ body {
 }
 
 .home-thumbnails {
-    background: #8c8c8c;
+    /* background-color: #8c8c8c; */
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     margin-top: 5em;
     padding: 3.5em;
-    -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    /* -webkit-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 20px -7px rgba(0,0,0,0.75); */
 }
 
 .home-thumbnail-shadows {
@@ -86,16 +189,37 @@ body {
     box-shadow: 0px 17px 40px -18px rgba(0,0,0,0.75);
 }
 
+@media screen and (max-width: 600px) {
+    .home-thumbnails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-thumbnail-shadows {
+        padding: 3em;
+    }
+}
+
 /* Footer */
 
 .footer {
-    background-color: #333333;
+    background-color: #cccccc;
+    /* background-color: #333333; */
     height: 26em;
     bottom: 0;
 }
 
 .footer-title {
     text-align: center;
+}
+
+.footer-font {
+    font-family: 'Geosans';
+    font-size: 1.2em;
+    font-weight: 800;
 }
 
 .footer-list {
