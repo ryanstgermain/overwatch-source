@@ -46,45 +46,45 @@ h5:hover {
     src: url(../fonts/built-bd-it.ttf);
 }
   
-@font-face {
+/* @font-face {
     font-family: bg-boldest;
     src: url(../fonts/built-bd.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: bg-thin-it;
     src: url(../fonts/built-el-it.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: bg-low;
     src: url(../fonts/built-lt.ttf);
-}
+} */
 
 @font-face {
     font-family: bg-low-it;
     src: url(../fonts/built-lt-it.ttf);
 }
 
-@font-face {
+/* @font-face {
     font-family: bg-medium-it;
     src: url(../fonts/built-rg-it.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: bg-medium;
     src: url(../fonts/built-rg.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: bg-bolder-it;
     src: url(../fonts/built-sb-it.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: bg-bolder;
     src: url(../fonts/built-sb.ttf);
-}
+} */
 
 /* Header */
 
@@ -156,6 +156,15 @@ h5:hover {
     font-size: 2em;
     font-family: 'Bebas';
     color: #FF9D00;
+    /* color: #e0dfdc; */
+    /* background: #556677; */
+    letter-spacing: .1em;
+    /* text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9); */
+    text-shadow: 0px 5px 4px rgba(150, 150, 150, 1);
+}
+
+.test {
+    text-shadow: 0px 5px 4px rgba(150, 150, 150, 1);
 }
 
 .home-learn-section {
@@ -241,6 +250,7 @@ h5:hover {
 
 .footer-title {
     text-align: center;
+    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
 }
 
 .footer-font {
