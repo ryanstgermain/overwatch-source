@@ -93,30 +93,6 @@ h5:hover {
     /* background-color: #333333; */
     height: 8em;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    list-style-type: none;
-    margin-right: 2em;
-}
-
-.header-link-font {
-    font-family: 'Geosans';
-    font-size: 1.4em;
-    color: #405275;
-    font-weight: bold;
-}
-
-.header-link-font:hover {
-    font-family: 'Geosans';
-    font-size: 1.4em;
-    color: #242f42;
-    font-weight: bold;
 }
 
 .header-title-font {
@@ -133,9 +109,59 @@ h5:hover {
 
 .header-title {
     display: flex;
+    justify-content: center;
     align-items: flex-end;
-    margin-left: 2em;
-    margin-bottom: 1em;
+    height: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .header-title-font {
+        font-size: 0.9em;
+    }
+}
+
+/* Navbar */
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #242424; */
+    background-color: #FF9D00; 
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.nav-link-font {
+    display: block;
+    text-decoration: none;
+    font-family: 'Bebas';
+    font-size: 1.4em;
+    /* color: #f2f1ed; */
+    color: #405275;
+    font-weight: bold;
+    padding: 0.4em;
+}
+
+.nav-link-font:hover {
+    display: block;
+    text-decoration: none;
+    font-family: 'Bebas';
+    font-size: 1.4em;
+    /* color: #a1a1a1; */
+    color: #242f42;
+    font-weight: bold;
+    padding: 0.4em;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-link-font {
+        font-size: 1.2em;
+    }
 }
 
 /* Home Page */
@@ -285,6 +311,12 @@ h5:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .thumbnails-margin-top {
+        margin-top: 2em;
     }
 }
 

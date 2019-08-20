@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style/App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import AboutOverwatchPage from './pages/AboutOverwatchPage';
 import AboutPage from './pages/AboutPage';
@@ -19,6 +20,7 @@ class App extends Component {
       <Router>
         <>
           <Header />
+          <Navbar />
           <Route exact path='/' render={()=><HomePage />} />
           <Route path='/overwatch-about' render={()=><AboutOverwatchPage />} />
           <Route path='/about-us' render={()=><AboutPage />} />

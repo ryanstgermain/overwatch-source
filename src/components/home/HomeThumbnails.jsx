@@ -42,7 +42,7 @@ const HomeThumbnails = () => {
         />
         <Divider />  
       </div>
-      <div>
+      <div className='thumbnails-margin-top'>
         <Card
           image='https://o.aolcdn.com/images/dims?quality=85&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F47c6392407c993d33e3018dc7e0ed803%2F206597072%2Fdva.jpg&client=amp-blogside-v2&signature=1c7d830039d65061f5ead25b378daaf39e9ceb7e'
           // header='Overwatch Maps'
@@ -51,7 +51,7 @@ const HomeThumbnails = () => {
         />  
         <Divider />
       </div>
-      <div>
+      <div className='thumbnails-margin-top'>
         <Card
           image='https://cdn.mos.cms.futurecdn.net/VRGyisv3GGeiCTXLrcqf3n.jpg'
           // header='Overwatch Game Modes'
@@ -60,7 +60,7 @@ const HomeThumbnails = () => {
         />  
         <Divider />
       </div>
-      <div>
+      <div className='thumbnails-margin-top'>
         <Card
           image='https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2019/07/16134425/OVR_SummerGames19_012_png_jpgcopy.jpg'
           // header='Overwatch League'
