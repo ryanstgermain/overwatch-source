@@ -48,7 +48,7 @@ const Footer= () => {
               </a>
             </ul>
           </div>  
-          <div>
+          <div className='footer-bottom'>
             <h4>Overview</h4>
             <Divider inverted />
             <div>
