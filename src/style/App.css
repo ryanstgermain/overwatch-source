@@ -71,10 +71,10 @@ h5:hover {
     src: url(../fonts/built-rg-it.ttf);
 } */
 
-/* @font-face {
+@font-face {
     font-family: bg-medium;
     src: url(../fonts/built-rg.ttf);
-} */
+}
 
 /* @font-face {
     font-family: bg-bolder-it;
@@ -163,7 +163,7 @@ h5:hover {
     text-shadow: 0px 5px 4px rgba(150, 150, 150, 1);
 }
 
-.test {
+.text-shadow {
     text-shadow: 0px 5px 4px rgba(150, 150, 150, 1);
 }
 
@@ -197,6 +197,24 @@ h5:hover {
     -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+}
+
+.home-data {
+    background-color: #e0e1e2;
+    padding: 1em;
+    border-radius: 0.2em;
+}
+
+.home-data:hover {
+    background-color: #cccccc;
+    padding: 1em;
+    border-radius: 0.2em;
+}
+
+.home-data-font {
+    font-family: 'bg-medium';
+    font-size: 2em;
+    color: #405275;
 }
 
 .home-search-section {
