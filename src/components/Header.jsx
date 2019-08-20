@@ -8,7 +8,7 @@ const Header = () => {
       <div className='header-title'>
         <h1>
           <Link to='/' className='header-title-font'>Overwatch Source</Link>
-          <Divider fitted />
+          <Divider className='divider-hidden' fitted />
         </h1>  
       </div>
     </div> 

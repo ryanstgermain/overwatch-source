@@ -15,13 +15,13 @@ const HomeSearch = () => {
       <div className='home-data-section'>
         <Link to='/overwatch-career-stats'>
           <div className='home-data'>
-            <span className='home-data-font'>View Overwatch Career Stats</span>
+            <span className='home-data-font'>Overwatch Career Stats</span>
           </div>  
           <Divider className='divider-hidden' />
         </Link>
         <Link to='/overwatch-league'>
           <div className='home-data'>
-            <span className='home-data-font'>View Overwatch League Data</span>
+            <span className='home-data-font'>Overwatch League Data</span>
           </div>  
           <Divider className='divider-hidden' />
         </Link>
