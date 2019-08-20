@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Button } from 'semantic-ui-react'
+import { Card, Button, Divider } from 'semantic-ui-react'
 
 const HomeThumbnails = () => {
   const heros = (
@@ -34,7 +34,8 @@ const HomeThumbnails = () => {
           header='Overwatch Heros'
           extra={heros}
           color='orange'
-        />  
+        />
+        <Divider />  
       </div>
       <div>
         <Card
@@ -42,6 +43,7 @@ const HomeThumbnails = () => {
           extra={maps}
           color='blue'
         />  
+        <Divider />
       </div>
       <div>
         <Card
@@ -49,6 +51,7 @@ const HomeThumbnails = () => {
           extra={modes}
           color='pink'
         />  
+        <Divider />
       </div>
       <div>
         <Card
@@ -56,6 +59,7 @@ const HomeThumbnails = () => {
           extra={league}
           color='green'
         />  
+        <Divider />
       </div>
     </div>
   );
