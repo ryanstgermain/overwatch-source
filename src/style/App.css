@@ -201,14 +201,18 @@ h5:hover {
 
 .home-data {
     background-color: #e0e1e2;
-    padding: 1em;
+    padding: 0.9em;
     border-radius: 0.2em;
+    transition: 0.2s;
+    margin-top: 1em;
 }
 
 .home-data:hover {
     background-color: #cccccc;
     padding: 1em;
     border-radius: 0.2em;
+    transition: 0.2s;
+    margin-top: 1em;
 }
 
 .home-data-font {
