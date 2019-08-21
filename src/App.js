@@ -8,10 +8,10 @@ import AboutOverwatchPage from './pages/AboutOverwatchPage';
 import AboutPage from './pages/AboutPage';
 import CareerStatsPage from './pages/CareerStatsPage';
 import ContactPage from './pages/ContactPage';
-import GameModePage from './pages/GameModePage';
-import HerosPage from './pages/HerosPage';
+import GameModeListPage from './pages/GameModeListPage';
+import HerosListPage from './pages/HerosListPage';
 import LeaguePage from './pages/LeaguePage';
-import MapsPage from './pages/MapsPage';
+import MapsListPage from './pages/MapsListPage';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -26,10 +26,10 @@ class App extends Component {
           <Route path='/about-us' render={()=><AboutPage />} />
           <Route path='/overwatch-career-stats' render={()=><CareerStatsPage />} />
           <Route path='/contact-us' render={()=><ContactPage />} />
-          <Route path='/overwatch-game-modes' render={()=><GameModePage />} />
-          <Route path='/overwatch-heros' render={()=><HerosPage />} />
+          <Route path='/overwatch-game-modes' render={()=><GameModeListPage />} />
+          <Route path='/overwatch-heros' render={()=><HerosListPage />} />
           <Route path='/overwatch-league' render={()=><LeaguePage />} />
-          <Route path='/overwatch-maps' render={()=><MapsPage />} />
+          <Route path='/overwatch-maps' render={()=><MapsListPage />} />
           <Footer />
         </>  
       </Router>

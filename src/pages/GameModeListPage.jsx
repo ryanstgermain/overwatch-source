@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GameModePage extends Component {
+class GameModeListPage extends Component {
   render() {
     return (
       <>
@@ -10,4 +10,4 @@ class GameModePage extends Component {
   }
 }
 
-export default GameModePage;
+export default GameModeListPage;

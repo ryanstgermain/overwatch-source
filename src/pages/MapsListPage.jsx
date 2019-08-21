@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class HerosPage extends Component {
+class MapsListPage extends Component {
   render() {
     return (
       <>
-        <h1>Heros page</h1>
+        <h1>Maps page</h1>
       </>
     );
   }
 }
 
-export default HerosPage;
+export default MapsListPage;
