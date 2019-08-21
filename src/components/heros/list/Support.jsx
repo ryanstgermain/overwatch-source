@@ -14,79 +14,79 @@ const Support = () => {
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
-            <span>Hanzo</span>    
+            <span className='hero-font'>Hanzo</span>    
           </div>
         </div>
       </div>

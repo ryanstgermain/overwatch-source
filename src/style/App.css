@@ -335,9 +335,7 @@ h5:hover {
 
 .hero-list-heading {
     text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
-    margin-left: 3em;
-    /* margin-top: 2em;
-    height: 25%; */
+    margin-left: 6em;
 }
 
 .hero-list {
@@ -360,6 +358,12 @@ h5:hover {
 .align-list-center {
     display: flex;
     justify-content: center;
+}
+
+.hero-font {
+    font-family: 'bg-low-it';
+    font-size: 2em;
+    color: #405275;
 }
 
 /* Footer */
