@@ -21,7 +21,7 @@ const Overview = () => {
           </p>
         </div>
         <div className='section-right'>
-          <h2>Also See:</h2>
+          <h2 className='text-shadow'>Also See:</h2>
           <div>
             <Link to='/overwatch-maps'>
               <Divider className='divider-hidden' />
