@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Divider, Input } from 'semantic-ui-react'
+import { Button, Container, Divider, Input } from 'semantic-ui-react';
 
 const HomeSearch = () => {
   return (

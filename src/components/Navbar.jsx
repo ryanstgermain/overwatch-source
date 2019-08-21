@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from 'semantic-ui-react';
 
 const Navbar = () => {
   return (
@@ -9,6 +10,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='/overwatch-about' className='nav-link-font'>About Overwatch</Link>
+        </li>
+        <li>
+          <Image src='https://upload.wikimedia.org/wikipedia/commons/5/55/Overwatch_circle_logo.svg' size='mini' className='nav-ow-logo' />
         </li>
         <li>
           <Link to='/about-us' className='nav-link-font'>About Us</Link>

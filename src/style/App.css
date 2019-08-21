@@ -130,7 +130,8 @@ h5:hover {
     padding: 0;
     overflow: hidden;
     /* background-color: #242424; */
-    background-color: #FF9D00; 
+    background-color: rgb(255, 186, 74); 
+    /* background-color: #FF9D00;  */
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -144,7 +145,7 @@ h5:hover {
     /* color: #f2f1ed; */
     color: #405275;
     font-weight: bold;
-    padding: 0.4em;
+    padding: 0.7em;
 }
 
 .nav-link-font:hover {
@@ -155,7 +156,11 @@ h5:hover {
     /* color: #a1a1a1; */
     color: #242f42;
     font-weight: bold;
-    padding: 0.4em;
+    padding: 0.7em;
+}
+
+.nav-ow-logo {
+    margin-top: 0.5em;
 }
 
 @media screen and (max-width: 600px) {
