@@ -359,16 +359,16 @@ strong {
 }
 
 .section-left {
-    width: 40%;
+    width: 50%;
     text-align: right;
     padding: 1em;
     overflow: scroll;
-    /* height: 360px; */
-    max-height: 340px;
+    /* height: 340px; */
+    max-height: 300px;
 }
 
 .section-right {
-    width: 40%;
+    width: 50%;
     text-align: left;
     padding: 1em;
 }
@@ -376,6 +376,11 @@ strong {
 .section-hero-list {
     display: flex;
     justify-content: center;
+    padding: 3em;
+    /* width: 80%; */
+    -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
 }
 
 .hero-list-heading {
