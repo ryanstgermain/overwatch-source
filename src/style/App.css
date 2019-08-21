@@ -359,15 +359,16 @@ strong {
 }
 
 .section-left {
-    width: 50%;
+    width: 40%;
     text-align: right;
     padding: 1em;
     overflow: scroll;
-    max-height: 400px;
+    /* height: 360px; */
+    max-height: 340px;
 }
 
 .section-right {
-    width: 25%;
+    width: 40%;
     text-align: left;
     padding: 1em;
 }
