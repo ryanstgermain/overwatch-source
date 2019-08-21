@@ -2,6 +2,18 @@ body {
     background-color: #f2f1ed;
 }
 
+p {
+    font-family: 'bg-medium-it';
+    font-size: 2em;
+    color: #FF9D00;
+}
+
+h1 {
+    font-family: 'bg-boldest';
+    font-size: 3em;
+    color: #405275;
+}
+
 h2 {
     font-family: 'bg-boldest-it';
     font-size: 2em;
@@ -26,6 +38,10 @@ h5:hover {
     color: #242f42;
 }
 
+strong {
+    font-size: 2em;
+}
+
 @font-face {
     font-family: Bebas;
     src: url(../fonts/BebasNeue-Regular.ttf);
@@ -46,10 +62,10 @@ h5:hover {
     src: url(../fonts/built-bd-it.ttf);
 }
   
-/* @font-face {
+@font-face {
     font-family: bg-boldest;
     src: url(../fonts/built-bd.ttf);
-} */
+}
 
 /* @font-face {
     font-family: bg-thin-it;
@@ -66,10 +82,10 @@ h5:hover {
     src: url(../fonts/built-lt-it.ttf);
 }
 
-/* @font-face {
+@font-face {
     font-family: bg-medium-it;
     src: url(../fonts/built-rg-it.ttf);
-} */
+}
 
 @font-face {
     font-family: bg-medium;
@@ -332,6 +348,33 @@ h5:hover {
 }
 
 /* Hero List Page */
+
+.test {
+    margin-top: 7em;
+}
+
+.hero-list-overview-title {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.section-left {
+    width: 50%;
+    text-align: right;
+    border-right: #405275 solid 3px;
+    padding: 1em;
+}
+
+.section-right {
+    width: 50%;
+    text-align: left;
+    padding: 1em;
+}
+
+.section-hero-list {
+    display: flex;
+    /* width: 100%; */
+}
 
 .hero-list-heading {
     text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);

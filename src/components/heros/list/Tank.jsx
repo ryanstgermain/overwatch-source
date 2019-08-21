@@ -4,7 +4,7 @@ import { Image, Divider } from 'semantic-ui-react';
 
 const Tank = () => {
   return (
-    <div>
+    <div className='test'>
       <Divider />
       <h2 className='hero-list-heading'>Tank</h2>
       <div className='align-list-center'>
