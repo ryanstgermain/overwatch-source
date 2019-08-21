@@ -5,9 +5,8 @@ import { Image, Divider } from 'semantic-ui-react';
 const Damage = () => {
   return (
     <div>
-      <Divider hidden />
-      <h2 className='hero-list-heading'>Damage</h2>
       <Divider />
+      <h2 className='hero-list-heading'>Damage</h2>
       <div className='align-list-center'>
         <div className='hero-list'>
           <div className='hero'>
