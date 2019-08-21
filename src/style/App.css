@@ -349,7 +349,7 @@ strong {
 
 /* Hero List Page */
 
-.test {
+.heros-margin-top {
     margin-top: 7em;
 }
 
@@ -361,18 +361,21 @@ strong {
 .section-left {
     width: 50%;
     text-align: right;
-    border-right: #405275 solid 3px;
+    /* border-right: #405275 solid 3px; */
     padding: 1em;
+    overflow: scroll;
+    max-height: 400px;
 }
 
 .section-right {
-    width: 50%;
+    width: 25%;
     text-align: left;
     padding: 1em;
 }
 
 .section-hero-list {
     display: flex;
+    justify-content: center;
     /* width: 100%; */
 }
 
