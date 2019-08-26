@@ -10,15 +10,15 @@ const Standard = () => {
         <p className='map-category'>
           Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         </p>
-        <Divider section />    
+        <Divider section className='divider-hidden' />    
       </div>
       <div className='map-list-layout'>
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Assault</h3>
-            <span className='map-type-overview'>
+            <p className='map-type-overview'>
               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </span>
+            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -60,9 +60,9 @@ const Standard = () => {
           </div>
           <div className='map-width'>
             <h3 className='map-type'>Escort</h3>
-            <span className='map-type-overview'>
+            <p className='map-type-overview'>
               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </span>
+            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -113,9 +113,9 @@ const Standard = () => {
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Hybrid</h3>
-            <span className='map-type-overview'>
+            <p className='map-type-overview'>
               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </span>
+            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -157,9 +157,9 @@ const Standard = () => {
           </div>  
           <div className='map-width'>
             <h3 className='map-type'>Control</h3>
-            <span className='map-type-overview'>
+            <p className='map-type-overview'>
               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </span>
+            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
