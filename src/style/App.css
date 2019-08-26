@@ -360,10 +360,9 @@ strong {
 
 .section-left {
     width: 50%;
-    text-align: right;
+    text-align: left;
     padding: 1em;
     overflow: scroll;
-    /* height: 340px; */
     max-height: 300px;
 }
 
@@ -377,7 +376,6 @@ strong {
     display: flex;
     justify-content: center;
     padding: 3em;
-    /* width: 80%; */
     -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
@@ -434,9 +432,6 @@ strong {
     .section-left {
         width: 100%;
         text-align: center;
-        /* padding: 1em; */
-        /* overflow: auto; */
-        /* max-height: 400px; */
         max-height: 100%;
     }
 }
@@ -446,9 +441,6 @@ strong {
         width: 100%;
         text-align: center;
         margin-top: 3em;
-        /* padding: 1em; */
-        /* overflow: scroll; */
-        /* max-height: 400px; */
     }
 }
 
@@ -463,7 +455,6 @@ strong {
 @media screen and (max-width: 600px) {
     .hero-list {
         display: flex;
-        /* flex-wrap: wrap; */
         justify-content: center;
         width: 100%;
     }
