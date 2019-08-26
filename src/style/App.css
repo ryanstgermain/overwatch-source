@@ -529,6 +529,10 @@ strong {
     margin-top: 3em;
 }
 
+.map-arcade-width {
+    width: 25%;
+}
+
 @media screen and (max-width: 600px) {
     .map-row {
         display: flex;
