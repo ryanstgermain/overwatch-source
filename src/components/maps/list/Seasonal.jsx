@@ -5,7 +5,13 @@ import { Image, Divider } from 'semantic-ui-react';
 const Seasonal = () => {
   return (
     <div>
-      {/* <h2>Seasonal Maps</h2> */}
+      <div className='map-margin-top'>
+        <h2 className='map-category-title'>Seasonal Maps</h2>
+        <p className='map-category'>
+          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        </p>
+        <Divider section className='divider-mobile-hidden' />    
+      </div>
     </div>
   );
 }

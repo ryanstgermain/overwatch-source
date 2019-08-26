@@ -4,7 +4,7 @@ import { Image, Divider } from 'semantic-ui-react';
 
 const OtherArcade = () => {
   return (
-    <div className='test'>
+    <div className='section-width'>
       <div className='map-margin-top'>
         <h2 className='map-category-title'>Other Arcade Maps</h2>
         <p className='map-category'>
