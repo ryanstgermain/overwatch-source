@@ -10,7 +10,7 @@ const Standard = () => {
         <p className='map-category'>
           Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         </p>
-        <Divider section className='divider-hidden' />    
+        <Divider section className='divider-mobile-hidden' />    
       </div>
       <div className='map-list-layout'>
         <div className='map-row'>
@@ -201,6 +201,7 @@ const Standard = () => {
           </div> 
         </div>       
       </div>
+      <Divider className='divider-desktop-hidden' />
     </div>
   );
 }

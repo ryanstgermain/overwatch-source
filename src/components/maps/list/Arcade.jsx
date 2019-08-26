@@ -10,7 +10,7 @@ const Arcade = () => {
         <p className='map-category'>
           Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         </p>
-        <Divider section className='divider-hidden' />    
+        <Divider section className='divider-mobile-hidden' />    
       </div>
         <div className='map-row'>
           <div className='map-arcade-width'>
@@ -90,7 +90,8 @@ const Arcade = () => {
             </div>
           </div>    
         </div>
-        </div>
+      <Divider className='divider-desktop-hidden' />
+    </div>
   );
 }
 

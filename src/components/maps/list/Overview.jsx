@@ -21,7 +21,7 @@ const Overview = () => {
         <div className='section-right'>
           <div>
             <Link to='/overwatch-heros'>
-              <Divider className='divider-hidden' />
+              <Divider className='divider-mobile-hidden' />
               <div className='home-data'>
                 <span className='home-data-font'>Overwatch Heros</span>
               </div>  
@@ -40,7 +40,7 @@ const Overview = () => {
               <div className='home-data'>
                 <span className='home-data-font'>Overwatch League Data</span>
               </div>  
-              <Divider className='divider-hidden' />
+              <Divider className='divider-mobile-hidden' />
             </Link> 
           </div>
         </div>    

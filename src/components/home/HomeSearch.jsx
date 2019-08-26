@@ -17,13 +17,13 @@ const HomeSearch = () => {
           <div className='home-data'>
             <span className='home-data-font'>Overwatch Career Stats</span>
           </div>  
-          <Divider className='divider-hidden' />
+          <Divider className='divider-mobile-hidden' />
         </Link>
         <Link to='/overwatch-league'>
           <div className='home-data'>
             <span className='home-data-font'>Overwatch League Data</span>
           </div>  
-          <Divider className='divider-hidden' />
+          <Divider className='divider-mobile-hidden' />
         </Link>
       </div>
       <div className='home-search-section'>
