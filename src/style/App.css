@@ -535,7 +535,6 @@ strong {
 
 .map-row-arcade-other {
     display: flex;
-    /* justify-content: center; */
     justify-content: space-evenly;
 }
 
@@ -560,12 +559,11 @@ strong {
 .map-arcade-width {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     width: 25%;
 }
 
 @media screen and (max-width: 600px) {
-    .map-row {
+    .map-row, .map-row-arcade-other {
         display: flex;
         flex-direction: column;
     }
@@ -582,6 +580,14 @@ strong {
     .maps-list {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .maps-list-arcade-other {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
