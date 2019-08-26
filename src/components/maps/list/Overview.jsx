@@ -8,7 +8,7 @@ const Overview = () => {
       <h1 className='hero-list-overview-title'>All Overwatch Maps</h1>
       <div className='section-hero-list'>
         <div className='section-left'>
-          <p>
+          <p className='hero-overview'>
             <strong>T</strong>here are 28 different maps in Overwatch. Currently, 
             standard gameplay has and array of 21 different maps used for quick and 
             competitive play. Being the biggest maps in the game, there are 5 assault 

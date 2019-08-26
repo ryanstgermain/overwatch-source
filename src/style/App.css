@@ -2,12 +2,6 @@ body {
     background-color: #f2f1ed;
 }
 
-p {
-    font-family: 'bg-medium-it';
-    font-size: 2em;
-    color: #FF9D00;
-}
-
 h1 {
     font-family: 'bg-boldest';
     font-size: 3em;
@@ -67,15 +61,15 @@ strong {
     src: url(../fonts/built-bd.ttf);
 }
 
-/* @font-face {
+@font-face {
     font-family: bg-thin-it;
     src: url(../fonts/built-el-it.ttf);
-} */
+}
 
-/* @font-face {
+@font-face {
     font-family: bg-low;
     src: url(../fonts/built-lt.ttf);
-} */
+}
 
 @font-face {
     font-family: bg-low-it;
@@ -92,10 +86,10 @@ strong {
     src: url(../fonts/built-rg.ttf);
 }
 
-/* @font-face {
+@font-face {
     font-family: bg-bolder-it;
     src: url(../fonts/built-sb-it.ttf);
-} */
+}
 
 /* @font-face {
     font-family: bg-bolder;
@@ -358,6 +352,12 @@ strong {
     padding: 1.5em;
 }
 
+.hero-overview {
+    font-family: 'bg-medium-it';
+    font-size: 2em;
+    color: #FF9D00;
+}
+
 .section-left {
     width: 50%;
     text-align: left;
@@ -458,6 +458,75 @@ strong {
         justify-content: center;
         width: 100%;
     }
+}
+
+/* Map List Page */
+
+.map-category-title {
+    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
+    text-align: center;
+}
+
+.map-category {
+    font-family: 'bg-low';
+    font-size: 1.5em;
+    color: #405275;
+    text-align: center;
+}
+
+.map-type {
+    font-family: 'bg-bolder-it';
+    font-size: 2em;
+    color: #FF9D00;
+    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
+}
+
+.map-type-overview {
+    font-family: 'bg-thin-it';
+    font-size: 1.5em;
+    color: #405275;
+}
+
+.maps-list {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.map-font {
+    font-family: 'bg-low-it';
+    font-size: 1.5em;
+    color: #405275;
+}
+
+.map {
+    padding: 1em;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.map:hover {
+    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
+    transition: 0.1s;
+}
+
+.map-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.maps-list-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-width {
+    width: 40%;
+}
+
+.map-margin-top {
+    margin-top: 3em;
 }
 
 /* Footer */

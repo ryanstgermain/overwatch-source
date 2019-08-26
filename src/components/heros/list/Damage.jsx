@@ -14,96 +14,112 @@ const Damage = () => {
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
           <div className='hero'>
             <Link to='/hero'>
               <Image src='https://upload.wikimedia.org/wikipedia/en/4/4c/Hanzo_Overwatch.png' size='small' />    
             </Link>
             <span className='hero-font'>Hanzo</span>    
+            <Divider />
           </div>
         </div>    
       </div>

@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Image, Divider } from 'semantic-ui-react';
 
 const OtherArcade = () => {
   return (
     <div>
-      <h1>Other arcade component</h1>
+      {/* <h2>Other arcade Maps</h2> */}
     </div>
   );
 }

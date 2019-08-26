@@ -8,7 +8,7 @@ const Overview = () => {
       <h1 className='hero-list-overview-title'>All Overwatch Heros</h1>
       <div className='section-hero-list'>
         <div className='section-left'>
-          <p>
+          <p className='hero-overview'>
             <strong>T</strong>here are currently 31 playable heros in Overwatch. 
             Each hero has a weapon/weapons that is unique to them. Abilities are 
             different throughout the hero list as each hero is suitable for 
