@@ -8,12 +8,14 @@ import CaptureTheFlag from '../components/game_modes/CaptureTheFlag';
 import Deathmatch from '../components/game_modes/Deathmatch';
 import Seasonal from '../components/game_modes/Seasonal';
 import Elimination from '../components/game_modes/Elimination';
+import { Divider } from 'semantic-ui-react';
 
 class GameModeListPage extends Component {
   render() {
     return (
       <>
         <Overview />
+        <Divider section hidden />
         <div className='game-mode-layout'>
           <div className='game-mode-upper-section'>
             <Assault />
