@@ -506,11 +506,6 @@ strong {
     flex-wrap: wrap;
 }
 
-.map-list-arcade-other {
-    /* display: flex; */
-    /* align-items: center; */
-}
-
 .map-font {
     font-family: 'bg-low-it';
     font-size: 1.5em;
@@ -540,12 +535,6 @@ strong {
 
 .section-width {
     width: 100%;
-}
-
-.maps-list-layout {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .map-width {

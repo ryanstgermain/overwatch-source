@@ -10,12 +10,10 @@ class MapsListPage extends Component {
     return (
       <>
         <Overview />
-        <div className='maps-list-layout'>
-          <Standard />
-          <Arcade />
-          <OtherArcade />
-          <Seasonal />  
-        </div>
+        <Standard />
+        <Arcade />
+        <OtherArcade />
+        <Seasonal />  
       </>
     );
   }
