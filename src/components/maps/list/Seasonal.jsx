@@ -8,7 +8,7 @@ const Seasonal = () => {
       <div className='map-margin-top'>
         <h2 className='map-category-title'>Seasonal Maps</h2>
         <p className='map-category'>
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+          During different times of the year, certain maps are changed and redecorated to fit the theme.
         </p>
         <Divider section className='divider-mobile-hidden' />    
       </div>

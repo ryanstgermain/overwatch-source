@@ -8,7 +8,7 @@ const OtherArcade = () => {
       <div className='map-margin-top'>
         <h2 className='map-category-title'>Other Arcade Maps</h2>
         <p className='map-category'>
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+          Maps are split to different sections for deathmatch to give them a different feel.
         </p>
         <Divider section className='divider-mobile-hidden' />    
       </div>
