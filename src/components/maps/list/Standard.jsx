@@ -8,7 +8,7 @@ const Standard = () => {
       <div className='map-margin-top'>
         <h2 className='map-category-title'>Standard Maps</h2>
         <p className='map-category'>
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+          Maps used in standard play. There are currently 21 different maps used in quick play and competitive play.
         </p>
         <Divider section className='divider-mobile-hidden' />    
       </div>
@@ -17,7 +17,9 @@ const Standard = () => {
           <div className='map-width'>
             <h3 className='map-type'>Assault</h3>
             <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              Assault maps have two areas where players must capture or defend depending on what side you are on. 
+              The attacking team must work together to capture both objective A and B to score a victory. The 
+              defending team must ensure the the attacking team does not capture any points.
             </p>
             <Divider />
             <div className='maps-list'>
@@ -61,7 +63,11 @@ const Standard = () => {
           <div className='map-width'>
             <h3 className='map-type'>Escort</h3>
             <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              Escort maps have a "payload" that the attacking team has to push to the end of the map while the 
+              defending team tries to stop the attacking team from scoring a victory. Each map has different 
+              checkpoints where once reached, the attacking team is given extra time to reach the other checkpoints 
+              or the destination. If the attacking team cannot reach a checkpoint or the finish, the defending team
+              wins.
             </p>
             <Divider />
             <div className='maps-list'>
@@ -114,7 +120,9 @@ const Standard = () => {
           <div className='map-width'>
             <h3 className='map-type'>Hybrid</h3>
             <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              Hybrid maps are a combination of assault and escort. The attacking team must capture objective A then push
+              the payload to each checkpoint, eventually reaching the finish. If the attacking team cannot capture 
+              objective A or reach any checkpoints or the finish, the defending team wins.
             </p>
             <Divider />
             <div className='maps-list'>
@@ -158,7 +166,9 @@ const Standard = () => {
           <div className='map-width'>
             <h3 className='map-type'>Control</h3>
             <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+              Control maps are different because both teams are attackers. Each team must capture and defend a point on 
+              the map in order to win. If a team captures the point, the other team has the opportunity to steal it. 
+              The team that has the point must have a strategy in order for them to not steal it back.
             </p>
             <Divider />
             <div className='maps-list'>
