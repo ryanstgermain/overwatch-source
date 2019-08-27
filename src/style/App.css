@@ -466,6 +466,8 @@ strong {
     }
 }
 
+/* Game Mode List Page */
+
 /* Map List Page */
 
 .map-category-title {
@@ -526,6 +528,7 @@ strong {
 .map-row {
     display: flex;
     justify-content: space-around;
+    margin-top: 6em;
 }
 
 .map-row-arcade-other {
