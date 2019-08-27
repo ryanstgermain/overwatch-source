@@ -16,9 +16,6 @@ const Seasonal = () => {
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Halloween Terror</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -46,9 +43,6 @@ const Seasonal = () => {
           </div>
           <div className='map-width'>
             <h3 className='map-type'>Winter Wonderland</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -92,9 +86,6 @@ const Seasonal = () => {
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Lunar New Year</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -108,9 +99,6 @@ const Seasonal = () => {
           </div>  
           <div className='map-width'>
             <h3 className='map-type'>Lúcioball</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -140,9 +128,6 @@ const Seasonal = () => {
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Junkenstein's Revenge</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -156,9 +141,6 @@ const Seasonal = () => {
           </div>  
           <div className='map-width'>
             <h3 className='map-type'>Mei's Snowball Offensive</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -181,9 +163,6 @@ const Seasonal = () => {
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Yeti Hunt</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -197,9 +176,6 @@ const Seasonal = () => {
           </div>  
           <div className='map-width'>
             <h3 className='map-type'>Uprising</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -215,9 +191,6 @@ const Seasonal = () => {
         <div className='map-row'>
           <div className='map-width'>
             <h3 className='map-type'>Retribution</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
@@ -231,9 +204,6 @@ const Seasonal = () => {
           </div>  
           <div className='map-width'>
             <h3 className='map-type'>Storm Rising</h3>
-            <p className='map-type-overview'>
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
             <Divider />
             <div className='maps-list'>
               <div className='map'>
