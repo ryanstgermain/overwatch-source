@@ -5,12 +5,20 @@ import { Divider } from 'semantic-ui-react';
 const Overview = () => {
   return (
     <div>
-      <h1 className='hero-list-overview-title'>All Overwatch Game Modes</h1>
+      <h1 className='hero-list-overview-title'>Overwatch Game Modes</h1>
       <div className='section-hero-list'>
         <div className='section-left'>
           <p className='hero-overview'>
-            <strong></strong>
+            <strong>T</strong>here are currently 7 different game modes in Overwatch. 
+            Competitive and quick play has 4 game modes (assault, escort, control, and 
+            hybrid). Arcade has 3 game modes (capture the flag, deathmatch, and elimination). 
           </p>
+          <Link to='/overwatch-competitive-play'>
+            <div className='home-data'>
+              <span className='home-data-font'>Competitive Play</span>
+            </div>  
+            <Divider className='divider-mobile-hidden' />
+          </Link>
         </div>
         <div className='section-right'>
           <div>

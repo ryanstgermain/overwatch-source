@@ -5,7 +5,7 @@ import { Divider } from 'semantic-ui-react';
 const Overview = () => {
   return (
     <div>
-      <h1 className='hero-list-overview-title'>All Overwatch Maps</h1>
+      <h1 className='hero-list-overview-title'>Overwatch Maps</h1>
       <div className='section-hero-list'>
         <div className='section-left'>
           <p className='hero-overview'>

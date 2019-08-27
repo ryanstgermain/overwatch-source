@@ -12,6 +12,7 @@ import GameModeListPage from './pages/GameModeListPage';
 import HerosListPage from './pages/HerosListPage';
 import LeaguePage from './pages/LeaguePage';
 import MapsListPage from './pages/MapsListPage';
+import CompetitivePlayPage from './pages/CompetitivePlayPage';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path='/overwatch-heros' render={()=><HerosListPage />} />
           <Route path='/overwatch-league' render={()=><LeaguePage />} />
           <Route path='/overwatch-maps' render={()=><MapsListPage />} />
+          <Route path='/overwatch-competitive-play' render={()=><CompetitivePlayPage />} />
           <Footer />
         </>  
       </Router>
