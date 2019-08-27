@@ -10,8 +10,8 @@ const Overview = () => {
         <div className='section-left'>
           <p className='hero-overview'>
             <strong>T</strong>here are currently 7 different game modes in Overwatch. 
-            Competitive and quick play has 4 game modes (assault, escort, control, and 
-            hybrid). Arcade has 3 game modes (capture the flag, deathmatch, and elimination). 
+            Competitive and quick play has 4 game modes being assault, escort, control, and 
+            hybrid. Arcade has 3 game modes being capture the flag, deathmatch, and elimination. 
           </p>
           <Link to='/overwatch-competitive-play'>
             <div className='home-data'>
