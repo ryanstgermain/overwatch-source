@@ -34,16 +34,16 @@ const Footer= () => {
             <h4>Official Overwatch Links</h4>
             <Divider inverted />
             <ul className='footer-list'>
-              <a href='' target='_blank' rel='noopener noreferrer'>
+              <a href='https://playoverwatch.com/en-us/' target='_blank' rel='noopener noreferrer'>
                 <li className='footer-font'>Website</li>
               </a>
-              <a href='' target='_blank' rel='noopener noreferrer'>
+              <a href='https://twitter.com/PlayOverwatch?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' target='_blank' rel='noopener noreferrer'>
                 <li className='footer-font'>Twitter</li>  
               </a>
-              <a href='' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.facebook.com/PlayOverwatch/' target='_blank' rel='noopener noreferrer'>
                 <li className='footer-font'>Facebook</li>  
               </a>
-              <a href='' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.instagram.com/playoverwatch/' target='_blank' rel='noopener noreferrer'>
                 <li className='footer-font'>Instagram</li>                
               </a>
             </ul>
