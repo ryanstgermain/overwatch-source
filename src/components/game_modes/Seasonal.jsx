@@ -27,13 +27,13 @@ const Seasonal = () => {
         <div>
         <h3 className='seasonal-maps-used'>Maps Used:</h3>
           <div>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
             <Divider />
@@ -52,7 +52,7 @@ const Seasonal = () => {
         <div>
         <h3 className='seasonal-maps-used'>Maps Used:</h3>
           <div>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
             <Divider />
@@ -72,10 +72,10 @@ const Seasonal = () => {
         <div>
         <h3 className='seasonal-maps-used'>Maps Used:</h3>
           <div>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
             <Divider />
@@ -95,7 +95,7 @@ const Seasonal = () => {
         <div>
         <h3 className='seasonal-maps-used'>Maps Used:</h3>
           <div>
-            <Link to='/overwatch-map'>
+            <Link to='/map'>
               <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
             </Link>
           </div>
