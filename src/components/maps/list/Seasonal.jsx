@@ -12,7 +12,7 @@ const Seasonal = () => {
         </p>
         <Divider section className='divider-mobile-hidden' />    
       </div>
-      <div className='map-row-arcade-other'>
+      <div className='map-row'>
         <div className='map-arcade-width-other'>
           <h3 className='map-type-arcade-other'>Lúcioball</h3>
           <Divider />
@@ -39,7 +39,7 @@ const Seasonal = () => {
               <Divider fitted />
             </div>
           </div>
-        </div> 
+        </div>
         <div className='map-arcade-width-other'>
           <h3 className='map-type-arcade-other'>Junkenstein's Revenge</h3>
           <Divider />
@@ -72,7 +72,9 @@ const Seasonal = () => {
               <Divider fitted />
             </div>
           </div>
-        </div> 
+        </div>
+      </div>
+      <div className='map-row'>
         <div className='map-arcade-width-other'>
           <h3 className='map-type-arcade-other'>Yeti Hunt</h3>
           <Divider />
@@ -85,7 +87,7 @@ const Seasonal = () => {
               <Divider fitted />
             </div>   
           </div>
-        </div> 
+        </div>
         <div className='map-arcade-width-other'>
           <h3 className='map-type-arcade-other'>Uprising</h3>
           <Divider />
