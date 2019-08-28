@@ -676,6 +676,13 @@ strong {
     text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
 }
 
+.game-mode-overview {
+    font-family: 'bg-medium-it';
+    font-size: 2em;
+    color: #FF9D00;
+    margin-top: 1em;
+}
+
 /* .seasonal-events {
     display: flex;
     flex-direction: column;
@@ -687,6 +694,27 @@ strong {
     justify-content: space-between;
     align-items: baseline;
 } */
+
+@media screen and (max-width: 600px) {
+    .game-mode-upper-section, .game-mode-lower-section {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game-mode-upper, .game-mode-lower, .game-mode-seasonal {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game-mode-overview {
+        margin-top: 3em;
+    }
+}
 
 /* Footer */
 
