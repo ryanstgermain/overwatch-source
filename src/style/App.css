@@ -588,6 +588,12 @@ strong {
 }
 
 @media screen and (max-width: 600px) {
+    .map-arcade-width-other {
+        margin-top: 4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .map-type, .map-type-overview {
         text-align: center;
     }
@@ -597,7 +603,6 @@ strong {
 
 .game-mode-layout {
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
 }
 
@@ -693,33 +698,17 @@ strong {
     margin-top: 1em;
 }
 
-/* .seasonal-events {
+.seasonal-events {
     display: flex;
     flex-direction: column;
     justify-content: center;
-} */
-
-/* .seasonal-event-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-} */
-
-@media screen and (max-width: 600px) {
-    .game-mode-layout{
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-    }
 }
 
 @media screen and (max-width: 600px) {
     .game-mode-upper-section, .game-mode-lower-section {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
-        /* flex-wrap: wrap; */
     }
 }
 
