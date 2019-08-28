@@ -7,7 +7,13 @@ const Control = () => {
     <div className='game-mode-upper'>
       <h2 className='map-category-title'>Control</h2>
       <div>
-        <p className='about-game-mode'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum .</p>
+        <p className='about-game-mode'>
+          Two teams battle against each other to capture and hold a point until 100%. 
+          Either team has the opportunity to steal the point but it is not possible 
+          to steal the point while the other team is on the point at the same time. 
+          This game mode does not have a time limit so whoever gets to 100% first, 
+          wins the first round.
+        </p>
         <Divider />
       </div>
       <div>
@@ -29,7 +35,6 @@ const Control = () => {
           <Link to='/overwatch-map'>
             <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
           </Link>
-          <Divider />
         </div>
       </div>
     </div>

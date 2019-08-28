@@ -29,6 +29,7 @@ class GameModeListPage extends Component {
             <Seasonal />  
             <CaptureTheFlag />  
           </div>  
+          <Divider section hidden />
         </div>
       </>
     );

@@ -7,7 +7,12 @@ const CaptureTheFlag = () => {
     <div className='game-mode-lower'>
       <h2 className='map-category-title'>Capture the Flag</h2>
       <div>
-        <p className='about-game-mode'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum .</p>
+        <p className='about-game-mode'>
+          A flag on each side of the map is set near both spawns. The goal is 
+          to steal the flag from the enemy side and bring it back to your spawn 
+          while making sure the enemy team does not capture any flags. The first 
+          team to 3 points wins the match.
+        </p>
         <Divider />
       </div>
       <div>
@@ -17,7 +22,6 @@ const CaptureTheFlag = () => {
           <Link to='/overwatch-map'>
             <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
           </Link>
-          <Divider />
         </div>
       </div>
     </div>

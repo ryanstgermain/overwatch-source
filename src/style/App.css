@@ -612,16 +612,26 @@ strong {
 }
 
 .game-mode-upper {
+    border: 1px solid #405275;
+    border-radius: 1%; 
     padding: 2em;
+    margin: 0.5em;
     width: 20%;
 }
 
 .game-mode-lower {
-    padding: 4em;
+    border: 1px solid #405275;
+    border-radius: 1%;
+    margin: 1em;
+    padding: 2em;
+    height: 30%;
     width: 25%;
 }
 
 .game-mode-seasonal {
+    border: 1px solid #405275;
+    border-radius: 1%;
+    margin: 1em;
     padding: 4em;
     width: 50%;
 }
@@ -696,10 +706,19 @@ strong {
 } */
 
 @media screen and (max-width: 600px) {
+    .game-mode-layout{
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+}
+
+@media screen and (max-width: 600px) {
     .game-mode-upper-section, .game-mode-lower-section {
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
+        align-items: center;
         /* flex-wrap: wrap; */
     }
 }
@@ -707,6 +726,7 @@ strong {
 @media screen and (max-width: 600px) {
     .game-mode-upper, .game-mode-lower, .game-mode-seasonal {
         width: 100%;
+        border: none;
     }
 }
 
