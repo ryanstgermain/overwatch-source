@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import MapCriticalInfo from '../components/maps/individual/MapCriticalInfo';
+import MapDescription from '../components/maps/individual/MapDescription';
+import MapScreenshots from '../components/maps/individual/MapScreenshots';
 
 class MapPage extends Component {
   render() {
     return (
       <>
-        <h1>Map page</h1>
+        <MapCriticalInfo />
+        <MapDescription />
+        <MapScreenshots />
       </>
     );
   }

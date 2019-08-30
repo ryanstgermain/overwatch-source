@@ -4,7 +4,7 @@ class HeroPage extends Component {
   render() {
     return (
       <>
-        <h1>Hero page</h1>
+        <h1>hero page</h1>
       </>
     );
   }
