@@ -1,9 +1,26 @@
 import React from 'react';
+import { Image, Divider } from 'semantic-ui-react';
 
 const MapCriticalInfo = () => {
   return (
-    <div>
-      <h1>Map title image and other info</h1>
+    <div className='map-critical-layout'>
+      <div className='map-title-image'>
+        <h2 className='maps-used'>Map Title</h2>
+        <Divider className='divider-mobile-hidden' />
+        <Image src='https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/7/7c/Horizon_Lunar_Colony2.jpg/1600px-Horizon_Lunar_Colony2.jpg?version=93768bc0b649b500598b55280a3792b6' size='large' />
+        <Divider className='divider-mobile-hidden' />
+      </div>
+      <div className='map-critical-info'>
+        <div>
+          <h3>Location</h3>
+          <span>United States</span>    
+        </div>
+        <Divider />
+        <div>
+          <h3>Type</h3>
+          <span>Escort</span>   
+        </div>
+      </div>
     </div>
   );
 }
