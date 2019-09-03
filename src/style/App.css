@@ -873,6 +873,7 @@ strong {
 
 @media screen and (max-width: 600px) {
     .footer-bottom {
+        margin-top: 2em;
         margin-bottom: 2em;
     }
 }
