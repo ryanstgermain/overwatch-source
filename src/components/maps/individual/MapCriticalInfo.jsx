@@ -12,13 +12,13 @@ const MapCriticalInfo = () => {
       </div>
       <div className='map-critical-info'>
         <div>
-          <h3>Location</h3>
-          <span>United States</span>    
+          <h3 className='maps-used'>Location</h3>
+          <span className='home-font'>United States</span>    
         </div>
         <Divider />
         <div>
-          <h3>Type</h3>
-          <span>Escort</span>   
+          <h3 className='seasonal-maps-used'>Type</h3>
+          <span className='home-font'>Escort</span>   
         </div>
       </div>
     </div>
