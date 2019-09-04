@@ -7,7 +7,7 @@ const Top500 = () => {
       <div className='competitive-ranking'>
         <h2 className='maps-used'>Top 500</h2> 
         <div>
-          <p>
+          <p className='about-game-mode'>
             Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
           </p>
         </div> 

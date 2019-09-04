@@ -8,7 +8,8 @@ const Seasons = () => {
         <h2 className='maps-used'>Seasons</h2> 
         {/* <Divider section />    */}
         <Divider section hidden />
-        <div className='section-competitive-overview'>
+        <div className='section-competitive'>
+            <Divider section className='divider-desktop-hidden' />
           <div className='competitive-seasons-section'>
             <div className='seasons-info-align'>
               <h3 className='maps-used'>Season</h3>

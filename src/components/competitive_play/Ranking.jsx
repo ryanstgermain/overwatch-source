@@ -7,7 +7,7 @@ const Ranking = () => {
       <div className='competitive-ranking'>
         <h2 className='maps-used'>Ranking</h2>
         <div>
-          <p>
+          <p className='about-game-mode'>
             Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
           </p>
         </div>    

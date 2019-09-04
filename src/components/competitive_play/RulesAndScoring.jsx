@@ -8,7 +8,7 @@ const RulesAndScoring = () => {
       <div className='rules-and-scoring-section'>
         <h2 className='maps-used'>Rules</h2>
         <div>
-          <p>
+          <p className='about-game-mode'>
             Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
           </p>
         </div>  
@@ -16,7 +16,7 @@ const RulesAndScoring = () => {
       <div className='rules-and-scoring-section'>
         <h2 className='maps-used'>Scoring</h2>
         <div>
-          <p>
+          <p className='about-game-mode'>
             Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
           </p>
         </div>
