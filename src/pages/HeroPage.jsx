@@ -18,8 +18,11 @@ class HeroPage extends Component {
         </div>
         <div>
           <AboutHero />
+          <Divider />
           <WeaponInfo />
+          <Divider />
           <AbilityInfo />
+          <Divider />
           <HeroVideo />  
         </div>
         <Divider section hidden />

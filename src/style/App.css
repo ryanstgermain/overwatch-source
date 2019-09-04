@@ -465,14 +465,12 @@ strong {
 
 .individual-hero-layout {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 
 .individual-hero-upper {
     display: flex;
-    /* justify-content: space-evenly; */
     justify-content: center;
     width: 100%;
 }
@@ -494,7 +492,7 @@ strong {
     align-items: baseline;
 }
 
-.test {
+.hero-stat-section {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -512,6 +510,24 @@ strong {
     color: #405275;
     font-family: 'bg-low-it';
     font-size: 1.5em;
+}
+
+.about-hero-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-quote-text {
+    color: #405275;
+    font-family: 'bg-medium-it';
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.hero-bio-text {
+    width: 80%;
+    text-align: center;
 }
 
 /* Map List Page */

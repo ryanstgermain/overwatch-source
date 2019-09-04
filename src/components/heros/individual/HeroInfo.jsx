@@ -7,7 +7,7 @@ const HeroInfo = () => {
       <h2 className='maps-used'>Hero Info & Stats</h2>
       <div>
         <Divider />
-        <div className='test'>
+        <div className='hero-stat-section'>
           <div className='hero-stats'>
             <h3 className='hero-stat-text'>Real Name:</h3>
             <span className='hero-stat-text-result'>hero name</span>    
