@@ -526,6 +526,9 @@ strong {
 }
 
 .hero-bio-text {
+    color: #405275;
+    font-family: 'bg-low';
+    font-size: 1.5em;
     width: 80%;
     text-align: center;
 }
