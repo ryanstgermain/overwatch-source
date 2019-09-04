@@ -6,7 +6,10 @@ const Overview = () => {
       <h1 className='hero-list-overview-title'>Overwatch Competitive Play</h1>
       <div className='section-competitive-overview'>
         <p className='game-mode-overview'>
-          <strong>L</strong>orem ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum ipsum lorem ipsum lorem ispum
+          <strong>P</strong>layers come to competitive play to find serious games 
+          and play as a team. Players must reach level 25 in order to access the 
+          ability to play. Continued leaving may result in the consequence of not 
+          being able to play in this mode.
         </p>
       </div>
     </div> 

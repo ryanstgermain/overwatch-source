@@ -845,17 +845,29 @@ strong {
     width: 80%;
 }
 
+.ranking-info-section, .competitive-seasons-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ranking-info, .seasons-info-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rank-sr {
+    color: #FF9D00;
+    font-family: 'bg-low';
+    font-size: 1.5em;
+}
+
 .section-competitive {
     padding: 3em;
     -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     text-align: center;
-}
-
-.competitive-seasons-section {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .seasons-section-info {
@@ -883,12 +895,6 @@ strong {
     border-right: 1px solid #FF9D00;
 }
 
-.seasons-info-align {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 @media screen and (max-width: 600px) {
     .rules-and-scoring-section, .competitive-ranking {
         width: 100%;
@@ -913,6 +919,14 @@ strong {
 @media screen and (max-width: 600px) {
     .section-competitive {
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ranking-info-section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
