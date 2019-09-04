@@ -851,13 +851,27 @@ strong {
 
 .seasons-section-info {
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
 }
 
 .seasons-section-info-text {
     text-align: center;
     color: #405275;
+    font-family: 'bg-low-it';
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-left: 1px solid #FF9D00;
+    border-right: 1px solid #FF9D00;
+}
+
+.seasons-section-info-text-current {
+    text-align: center;
+    color: #405275;
+    font-family: 'bg-medium-it';
+    font-size: 1.5em;
+    padding: 0.8em;
+    border-left: 1px solid #FF9D00;
+    border-right: 1px solid #FF9D00;
 }
 
 .seasons-info-align {
