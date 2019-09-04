@@ -475,13 +475,6 @@ strong {
     width: 100%;
 }
 
-/* .individual-hero-lower {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
-
 .hero-title-image, .hero-stats-layout {
     padding: 1em;
     height: 500px;
