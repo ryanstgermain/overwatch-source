@@ -6,7 +6,6 @@ const Seasons = () => {
     <div className='competitive-section'>
       <div className='competitive-ranking'>
         <h2 className='maps-used'>Seasons</h2> 
-        {/* <Divider section />    */}
         <Divider section hidden />
         <div className='section-competitive'>
             <Divider section className='divider-desktop-hidden' />
