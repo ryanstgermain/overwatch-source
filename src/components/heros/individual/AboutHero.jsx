@@ -4,7 +4,7 @@ import { Divider } from 'semantic-ui-react';
 const AboutHero = () => {
   return (
     <div>
-      <h2>about hero</h2>
+      <h2 className='maps-used'>about hero</h2>
     </div>
   );
 }

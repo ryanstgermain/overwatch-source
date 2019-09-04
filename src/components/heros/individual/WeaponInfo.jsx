@@ -4,7 +4,7 @@ import { Divider } from 'semantic-ui-react';
 const WeaponInfo = () => {
   return (
     <div>
-      <h2>weapon info</h2>
+      <h2 className='maps-used'>weapon info</h2>
     </div>
   );
 }

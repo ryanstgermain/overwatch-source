@@ -463,7 +463,56 @@ strong {
 
 /* Individual Hero Page  */
 
+.individual-hero-layout {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
 
+.individual-hero-upper {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    width: 100%;
+}
+
+/* .individual-hero-lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.hero-title-image, .hero-stats-layout {
+    padding: 1em;
+    height: 500px;
+}
+
+.hero-stats {
+    display: flex;
+    align-items: baseline;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 325px;
+}
+
+.hero-stat-text {
+    color: #405275;
+    font-family: 'bg-medium-it';
+    font-size: 1.5em;
+    margin-right: 0.4em;
+}
+
+.hero-stat-text-result {
+    color: #405275;
+    font-family: 'bg-low-it';
+    font-size: 1.5em;
+}
 
 /* Map List Page */
 
