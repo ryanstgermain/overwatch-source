@@ -5,8 +5,9 @@ const AboutHero = () => {
   return (
     <div className='about-hero-layout'>
       <span className='hero-quote-text'>"hero quote"</span>
+      <Divider hidden />
       <h2 className='maps-used'>Hero Bio</h2>
-      {/* <Divider /> */}
+      <Divider hidden />
       <div className='hero-bio-text'>
         <p>
           Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum 

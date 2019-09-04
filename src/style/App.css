@@ -912,6 +912,7 @@ strong {
 .ranking-info-section, .competitive-seasons-section {
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .ranking-info, .seasons-info-align {
@@ -924,6 +925,7 @@ strong {
     color: #FF9D00;
     font-family: 'bg-low';
     font-size: 1.5em;
+    text-align: center;
 }
 
 .section-competitive {

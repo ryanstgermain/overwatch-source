@@ -5,6 +5,7 @@ const HeroVideo = () => {
   return (
     <div>
       <h2 className='maps-used'>hero video</h2>
+      <Divider hidden />
     </div>
   );
 }
