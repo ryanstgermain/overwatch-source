@@ -3,8 +3,15 @@ import { Divider } from 'semantic-ui-react';
 
 const Top500 = () => {
   return (
-    <div>
-      <h2 className='maps-used'>Top 500</h2>
+    <div className='competitive-section'>
+      <div className='competitive-ranking'>
+        <h2 className='maps-used'>Top 500</h2> 
+        <div>
+          <p>
+            Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
+          </p>
+        </div> 
+      </div>
     </div>
   );
 }
