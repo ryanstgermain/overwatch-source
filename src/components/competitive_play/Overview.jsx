@@ -9,7 +9,7 @@ const Overview = () => {
           <strong>P</strong>layers come to competitive play to find serious games 
           and play as a team. Players must reach level 25 in order to access the 
           ability to play. Continued leaving may result in the consequence of not 
-          being able to play in this mode.
+          being able to play in this mode. Read more about competitive play below.
         </p>
       </div>
     </div> 
