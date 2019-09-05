@@ -523,13 +523,11 @@ strong {
     color: #405275;
     font-family: 'bg-low';
     font-size: 1.5em;
-    /* width: 80%; */
     text-align: center;
 }
 
 .weapons-section {
     display: flex;
-    /* justify-content: space-between; */
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -549,7 +547,6 @@ strong {
 @media screen and (max-width: 600px) {
     .hero-info-margin-top {
         margin-top: 3em;
-        /* width: 80%; */
     }
 }
 
