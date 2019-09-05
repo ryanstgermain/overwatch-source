@@ -509,6 +509,7 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em
 }
 
 .hero-quote-text {
@@ -528,11 +529,28 @@ strong {
 
 .weapons-section {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .weapon-details {
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .weapon-details {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-info-margin-top {
+        margin-top: 3em;
+        /* width: 80%; */
+    }
 }
 
 /* Map List Page */
