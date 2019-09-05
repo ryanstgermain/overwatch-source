@@ -344,7 +344,19 @@ strong {
 
 /* About Overwatch Page  */
 
+.about-overwatch-overview {
+    font-family: 'bg-low';
+    font-size: 1.5em;
+    color: #405275;
+    text-align: center;
+    width: 80%;
+}
 
+.about-overwatch-overview-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Hero List Page */
 
