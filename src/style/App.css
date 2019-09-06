@@ -358,6 +358,94 @@ strong {
     align-items: center;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-overwatch-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-overwatch-section-heading {
+    text-align: center;
+    color: #f2f1ed;
+    font-family: 'bg-medium-it';
+    font-size: 2.5em;
+}
+
+.about-overwatch-section-paragraph {
+    text-align: center;
+    color: #f2f1ed;
+    font-family: 'bg-low';
+    font-size: 1.5em;
+}
+
+.shot-caller {
+    display: flex;
+    flex-direction: column;
+    background-color: #f19412;
+    padding: 3em;
+}
+
+.good-teammate {
+    display: flex;
+    flex-direction: column;
+    background-color: #c818f4;
+    padding: 3em;
+}
+
+.sportsmanship {
+    display: flex;
+    flex-direction: column;
+    background-color: #3ece43;
+    padding: 3em;
+}
+
+.tank {
+    background-color: #f9a42c;
+    padding: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.damage {
+    background-color: #e52128;
+    padding: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.support {
+    background-color: #02a34a;
+    padding: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.button-width {
+    width: 50%;
+}
+
+.about-game-mode-button {
+    background-color: #e0e1e2;
+    padding: 0.9em;
+    border-radius: 0.2em;
+    transition: 0.2s;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.about-game-mode-button:hover {
+    background-color: #cccccc;
+    padding: 1em;
+    border-radius: 0.2em;
+    transition: 0.2s;
+    margin-top: 1em;
+    text-align: center;
+}
+
 /* Hero List Page */
 
 .heros-margin-top {
