@@ -15,15 +15,15 @@ class AboutOverwatchPage extends Component {
         <Overview />
         <Divider section />
         <Gameplay />
-        <Divider section hidden />
+        <Divider section />
         <Endorsements />
         <Divider section hidden />
         <GameModes />
-        <Divider section hidden />
+        <Divider section />
         <Role />
         <Divider section hidden />
         <Heros />
-        <Divider section hidden />
+        <Divider section />
         <Videos />
         <Divider section hidden />
       </>

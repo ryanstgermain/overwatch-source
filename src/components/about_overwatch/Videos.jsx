@@ -6,6 +6,9 @@ const Videos = () => {
     <div>
       <h2 className='maps-used'>Videos about Overwatch</h2>
       <Divider hidden />
+      <div className='section-hero-list'>
+        
+      </div>
     </div>
   );
 }
