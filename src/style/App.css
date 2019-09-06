@@ -458,7 +458,14 @@ strong {
 
 @media screen and (max-width: 600px) {
     .tank, .damage, .support {
+        width: 100%;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button-width {
+        width: 80%;
     }
 }
 
