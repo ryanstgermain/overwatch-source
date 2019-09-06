@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Heading from '../components/contact/Heading';
-import Form from '../components/contact/Form';
+import EmailForm from '../components/contact/EmailForm';
 
 class ContactPage extends Component {
   render() {
     return (
       <>
         <Heading />
-        <Form />
+        <EmailForm />
       </>
     );
   }
