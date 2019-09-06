@@ -365,7 +365,7 @@ strong {
 
 .about-overwatch-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .about-overwatch-section-heading {
@@ -444,6 +444,19 @@ strong {
     transition: 0.2s;
     margin-top: 1em;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .about-overwatch-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tank, .damage, .support {
+        margin: 0;
+    }
 }
 
 /* Hero List Page */
