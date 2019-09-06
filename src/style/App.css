@@ -408,6 +408,7 @@ strong {
     padding: 2em;
     margin-left: 3em;
     margin-right: 3em;
+    width: 65%;
 }
 
 .damage {
@@ -415,6 +416,7 @@ strong {
     padding: 2em;
     margin-left: 3em;
     margin-right: 3em;
+    width: 65%;
 }
 
 .support {
@@ -422,6 +424,7 @@ strong {
     padding: 2em;
     margin-left: 3em;
     margin-right: 3em;
+    width: 65%;
 }
 
 .button-width {
