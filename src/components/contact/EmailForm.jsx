@@ -3,19 +3,21 @@ import { Button, Checkbox, Form } from 'semantic-ui-react';
 
 const EmailForm = () => {
   return (
-    <div>
-      <Form>
-        <Form.Field>
-          <label>First Name</label>
-          <input placeholder='First Name' />
+    <div className='contact-form-align'>
+      <Form className='contact-form'>
+        <Form.Field className='contact-form-text' required>
+          <label>Name</label>
+          <input placeholder='Name' />
         </Form.Field>
-        <Form.Field>
-          <label>Last Name</label>
-          <input placeholder='Last Name' />
+        <Form.Field className='contact-form-text' required>
+          <label>Email</label>
+          <input placeholder='Email' />
         </Form.Field>
-        <Form.Field>
-          <Checkbox label='I agree to the Terms and Conditions' />
+        <Form.Field className='contact-form-text' required>
+          <label>Subject</label>
+          <input placeholder='Subject' />
         </Form.Field>
+        <Form.TextArea className='contact-form-text' label='Message' placeholder='Message...' required />
         <Button type='submit'>Submit</Button>
       </Form>
     </div>

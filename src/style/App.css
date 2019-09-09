@@ -344,7 +344,27 @@ strong {
 
 /* Contact Page  */
 
+.contact-form-align {
+    display: flex;
+    justify-content: center;
+}
 
+.contact-form {
+    width: 50%;
+}
+
+.contact-form-text {
+    font-family: 'bg-low-it';
+    font-size: 1.5em;
+    text-decoration-color: green;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-form{
+        padding: 1em;
+        width: 100%;
+    }
+}
 
 /* About Overwatch Page  */
 

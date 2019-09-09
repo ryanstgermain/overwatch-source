@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Heading from '../components/contact/Heading';
 import EmailForm from '../components/contact/EmailForm';
+import { Divider } from 'semantic-ui-react';
 
 class ContactPage extends Component {
   render() {
@@ -8,6 +9,7 @@ class ContactPage extends Component {
       <>
         <Heading />
         <EmailForm />
+        <Divider section hidden />
       </>
     );
   }
