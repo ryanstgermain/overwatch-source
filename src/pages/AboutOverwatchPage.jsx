@@ -26,7 +26,7 @@ class AboutOverwatchPage extends Component {
         <Role />
         <Divider section hidden />
         <Heros />
-        <Divider section />
+        <Divider className='divider-mobile-hidden' section />
         <Videos />
         <Divider section hidden />
       </>

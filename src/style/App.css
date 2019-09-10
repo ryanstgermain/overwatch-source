@@ -473,6 +473,10 @@ strong {
     text-align: center;
 }
 
+.video-player-about-game {
+    padding: 2em;
+}
+
 @media screen and (max-width: 600px) {
     .about-overwatch-section {
         display: flex;
@@ -490,6 +494,12 @@ strong {
 @media screen and (max-width: 600px) {
     .button-width {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video-section {
+        display: none;
     }
 }
 
