@@ -706,6 +706,11 @@ strong {
     width: 50%;
 }
 
+.hero-video-center {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
     .weapon-details {
         margin-top: 3em;

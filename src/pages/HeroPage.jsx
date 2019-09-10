@@ -5,7 +5,7 @@ import AboutHero from '../components/heros/individual/AboutHero';
 import WeaponInfo from '../components/heros/individual/WeaponInfo';
 import AbilityInfo from '../components/heros/individual/AbilityInfo';
 import UltimateAbilityInfo from '../components/heros/individual/UltimateAbilityInfo';
-// import HeroVideo from '../components/heros/individual/HeroVideo';
+import HeroVideo from '../components/heros/individual/HeroVideo';
 import { Divider } from 'semantic-ui-react';
 
 class HeroPage extends Component {
@@ -20,15 +20,15 @@ class HeroPage extends Component {
         <div>
           <AboutHero />
           <Divider section hidden />
+          <HeroVideo />  
+          <Divider section hidden />
           <WeaponInfo />
           <Divider section hidden />
           <AbilityInfo />
           <Divider section hidden />
           <UltimateAbilityInfo />
-          <Divider section hidden />
-          {/* <HeroVideo />   */}
         </div>
-        <Divider section hidden />
+        {/* <Divider className='' section hidden /> */}
       </div>
     );
   }
