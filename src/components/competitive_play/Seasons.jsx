@@ -28,7 +28,11 @@ const Seasons = () => {
                 <span className='seasons-section-info-text'>12</span>
                 <span className='seasons-section-info-text'>13</span>
                 <span className='seasons-section-info-text'>14</span>
-                <span className='seasons-section-info-text-current'>15</span>
+                <span className='seasons-section-info-text'>15</span>
+                <span className='seasons-section-info-text'>16</span>
+                <span className='seasons-section-info-text'>17</span>
+                <span className='seasons-section-info-text'>Role Queue Beta</span>
+                <span className='seasons-section-info-text-current'>18</span>
                 <Divider section />
               </div>    
             </div>
@@ -41,16 +45,20 @@ const Seasons = () => {
                 <span className='seasons-section-info-text'>Dec 1st, 2016</span>
                 <span className='seasons-section-info-text'>Feb 28th, 2017</span>
                 <span className='seasons-section-info-text'>June 1st, 2017 </span>
-                <span className='seasons-section-info-text'>September 1st, 2017 </span>
-                <span className='seasons-section-info-text'>November 1st, 2017</span>
+                <span className='seasons-section-info-text'>Sep 1st, 2017 </span>
+                <span className='seasons-section-info-text'>Nov 1st, 2017</span>
                 <span className='seasons-section-info-text'>Jan 1st, 2018</span> 
                 <span className='seasons-section-info-text'>Feb 28th, 2018</span> 
                 <span className='seasons-section-info-text'>May 1st, 2018</span> 
                 <span className='seasons-section-info-text'>July 2nd, 2018</span> 
-                <span className='seasons-section-info-text'>August 31st, 2018</span> 
-                <span className='seasons-section-info-text'>November 1st, 2018 </span> 
-                <span className='seasons-section-info-text'>January 1st, 2019</span> 
-                <span className='seasons-section-info-text-current'>March 1st, 2019</span>
+                <span className='seasons-section-info-text'>Aug 31st, 2018</span> 
+                <span className='seasons-section-info-text'>Nov 1st, 2018 </span> 
+                <span className='seasons-section-info-text'>Jan 1st, 2019</span> 
+                <span className='seasons-section-info-text'>March 1st, 2019</span>
+                <span className='seasons-section-info-text'>May 1st, 2019</span>
+                <span className='seasons-section-info-text'>June 30th, 2019</span>
+                <span className='seasons-section-info-text'>Aug 13th, 2019</span>
+                <span className='seasons-section-info-text-current'>Sep 1st, 2019</span>                
                 <Divider section /> 
               </div>    
             </div>
@@ -62,17 +70,21 @@ const Seasons = () => {
                 <span className='seasons-section-info-text'>Nov 24th, 2016</span>
                 <span className='seasons-section-info-text'>Feb 21st, 2017</span>
                 <span className='seasons-section-info-text'>May 28th, 2017</span>
-                <span className='seasons-section-info-text'>August 28th, 2017</span>
-                <span className='seasons-section-info-text'>October 28th, 2017 </span>
-                <span className='seasons-section-info-text'>December 29th, 2017</span>
+                <span className='seasons-section-info-text'>Aug 28th, 2017</span>
+                <span className='seasons-section-info-text'>Oct 28th, 2017 </span>
+                <span className='seasons-section-info-text'>Dec 29th, 2017</span>
                 <span className='seasons-section-info-text'>Feb 25th, 2018</span>
                 <span className='seasons-section-info-text'>Apr 28th, 2018</span> 
                 <span className='seasons-section-info-text'>July 1st, 2018</span> 
                 <span className='seasons-section-info-text'>Aug 28th, 2018</span> 
-                <span className='seasons-section-info-text'>October 28th, 2018</span> 
-                <span className='seasons-section-info-text'>December 31st, 2018</span> 
-                <span className='seasons-section-info-text'>February 28th, 2019</span> 
-                <span className='seasons-section-info-text-current'>April 29th, 2019</span>
+                <span className='seasons-section-info-text'>Oct 28th, 2018</span> 
+                <span className='seasons-section-info-text'>Dec 31st, 2018</span> 
+                <span className='seasons-section-info-text'>Feb 28th, 2019</span> 
+                <span className='seasons-section-info-text'>April 29th, 2019</span>
+                <span className='seasons-section-info-text'>June 30th, 2019</span>
+                <span className='seasons-section-info-text'>Aug 13th, 2019</span>
+                <span className='seasons-section-info-text'>Sep 1st, 2019</span>
+                <span className='seasons-section-info-text-current'>-</span>
                 <Divider section /> 
               </div>   
             </div>    
