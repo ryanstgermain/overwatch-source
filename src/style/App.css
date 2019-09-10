@@ -411,6 +411,7 @@ strong {
     flex-direction: column;
     background-color: #f19412;
     padding: 3em;
+    width: 15%;
 }
 
 .good-teammate {
@@ -418,6 +419,7 @@ strong {
     flex-direction: column;
     background-color: #c818f4;
     padding: 3em;
+    width: 15%;
 }
 
 .sportsmanship {
@@ -425,6 +427,7 @@ strong {
     flex-direction: column;
     background-color: #3ece43;
     padding: 3em;
+    width: 15%;
 }
 
 .tank {
@@ -481,6 +484,12 @@ strong {
     .about-overwatch-section {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shot-caller, .good-teammate, .sportsmanship {
+        width: 100%;
     }
 }
 
