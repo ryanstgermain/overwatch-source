@@ -28,7 +28,6 @@ class HeroPage extends Component {
           <Divider section hidden />
           <UltimateAbilityInfo />
         </div>
-        {/* <Divider className='' section hidden /> */}
       </div>
     );
   }
