@@ -771,6 +771,12 @@ strong {
     color: #405275;
 }
 
+.map-font-type {
+    font-family: 'bg-medium-it';
+    font-size: 1.5em;
+    color: #FF9D00;
+}
+
 .map {
     padding: 1em;
     text-align: center;

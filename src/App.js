@@ -18,6 +18,25 @@ import CompetitivePlayPage from './pages/CompetitivePlayPage';
 import Footer from './components/Footer';
 
 class App extends Component {
+  constructor() {
+    super()
+      this.state = {
+        map: []
+      }
+  }
+
+  oneMap = (event) => {
+    fetch(`http://localhost:3000/${event.target.id}`,)
+      .then(result => result.json()) 
+      .then((response) => {
+        this.setState({
+          map: [response]
+        })
+      })
+  console.log(this.oneMap, 'clicked')
+
+  }
+
   render() {
     return (
       <Router>
@@ -33,8 +52,8 @@ class App extends Component {
           <Route path='/overwatch-heros' render={()=><HerosListPage />} />
           <Route path='/hero' render={()=><HeroPage />} />
           <Route path='/overwatch-league' render={()=><LeaguePage />} />
-          <Route path='/overwatch-maps' render={()=><MapsListPage />} />
-          <Route path='/map' render={()=><MapPage />} />
+          <Route path='/overwatch-maps' render={()=><MapsListPage oneMap={this.oneMap} map={this.state.map} />} />
+          <Route path='/map' render={()=><MapPage oneMap={this.oneMap} map={this.state.map} />} />
           <Route path='/overwatch-competitive-play' render={()=><CompetitivePlayPage />} />
           <Footer />
         </>  
