@@ -760,36 +760,25 @@ strong {
     color: #405275;
 }
 
-/* .maps-list {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
 .map-font {
-    font-family: 'bg-low-it';
+    font-family: 'bg-medium-it';
     font-size: 1.5em;
     color: #405275;
 }
 
 .map-font-type {
-    font-family: 'bg-medium-it';
+    font-family: 'bg-low-it';
     font-size: 1.5em;
-    color: #FF9D00;
+    color: #405275;
+    transition: 0.1s;
 }
 
 .map {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;
-    /* padding: 1em; */
     text-align: center;
-    transition: 0.1s;
-}
-
-.map:hover {
-    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 .map-row {
@@ -808,7 +797,7 @@ strong {
 }
 
 .map-width {
-    width: 90%;
+    width: 80%;
 }
 
 .map-margin-top {
@@ -829,7 +818,29 @@ strong {
 
 .map-image-size {
     height: 188px;
-    /* width: 40%; */
+    transition: 0.1s;
+    width: 300px;;
+}
+
+.map-image-size:hover {
+    transition: 0.1s;
+    padding: 0.2em;
+}
+
+.map-name-container {
+    background-color: #FF9D00;
+    padding: 0.5em;
+    width: 100%;
+    transition: 0.1s;
+}
+
+.map-name-container:hover {
+    background-color: rgb(170, 107, 5);
+    transition: 0.1s;
+}
+
+.map-padding {
+    padding: 0.7em;
 }
 
 @media screen and (max-width: 600px) {
