@@ -33,8 +33,7 @@ class App extends Component {
           map: [response]
         })
       })
-  console.log(this.oneMap, 'clicked')
-
+      console.log(this.oneMap, 'clicked')
   }
 
   render() {

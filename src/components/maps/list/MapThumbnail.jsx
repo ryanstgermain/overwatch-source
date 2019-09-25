@@ -34,11 +34,11 @@ class MapThumbnail extends Component {
     return (
       <div className='map'>
         {maps.map(map =>
-          <Link to='/map' onClick={this.props.oneMap} id={map.id} key={map.id}>
-            <Image src={map.map_image} size='small' />
-            <span className='map-font'>{map.map_name}</span>
-            <span className='map-font-type'>{map.map_type}</span>
-          </Link>
+          <div>
+            <Image onClick={this.props.oneMap} id={map.id} key={map.id} src={map.map_image} className='map-image-size' />
+            <span onClick={this.props.oneMap} id={map.id} key={map.id} className='map-font'>{map.map_name} </span>
+            <span onClick={this.props.oneMap} id={map.id} key={map.id} className='map-font-type'>- {map.map_type}</span>
+          </div>
         )}
         <Divider fitted />
       </div>

@@ -760,10 +760,10 @@ strong {
     color: #405275;
 }
 
-.maps-list {
+/* .maps-list {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 .map-font {
     font-family: 'bg-low-it';
@@ -778,7 +778,11 @@ strong {
 }
 
 .map {
-    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding: 1em; */
     text-align: center;
     transition: 0.1s;
 }
@@ -804,7 +808,7 @@ strong {
 }
 
 .map-width {
-    width: 40%;
+    width: 90%;
 }
 
 .map-margin-top {
@@ -821,6 +825,11 @@ strong {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.map-image-size {
+    height: 188px;
+    /* width: 40%; */
 }
 
 @media screen and (max-width: 600px) {
