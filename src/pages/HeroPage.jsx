@@ -217,6 +217,7 @@ class HeroPage extends Component {
                     <Divider className='divider-mobile-hidden' />
                   </div>
                 </div>
+                <Divider section hidden />
               </div>
             </div>
           </div>
