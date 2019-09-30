@@ -21,7 +21,7 @@ class MapThumbnail extends Component {
   componentDidMount() {
     this.setState({ isLoading: true });
 
-    fetch('http://localhost:3000/')
+    fetch('http://localhost:3000/maps')
       .then(result => result.json())
       .then((data => this.setState({ maps: data, isLoading: false })));
   }
