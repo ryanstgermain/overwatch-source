@@ -23,10 +23,10 @@ const Overview = () => {
         </div>
         <div className='section-right'>
           <div>
-            <Link to='/overwatch-heros'>
+            <Link to='/overwatch-heroes'>
               <Divider className='divider-mobile-hidden' />
               <div className='home-data'>
-                <span className='home-data-font'>Overwatch Heros</span>
+                <span className='home-data-font'>Overwatch Heroes</span>
               </div>  
             </Link>
             <Link to='/overwatch-maps'>

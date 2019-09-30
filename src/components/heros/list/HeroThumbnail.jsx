@@ -63,10 +63,10 @@ class HeroThumbnail extends Component {
       return <p>Loading...</p>
     }
     return (
-      <div>
+      <div className='map'>
         {heros.map(hero =>
-          <div>
-            <Image onClick={this.props.oneHero} id={hero.id} key={hero.id} src={hero.hero_image} size='small' />
+          <div className='map-padding'>
+            <Image onClick={this.props.oneHero} id={hero.id} key={hero.id} src={hero.hero_image} className='hero-image-size' />
             <div onClick={this.props.oneHero} id={hero.id} key={hero.id} className='map-name-container'>
               <span className='map-font'>{hero.hero_name} </span>
               <span className='map-font-type'>- {hero.hero_role}</span>    

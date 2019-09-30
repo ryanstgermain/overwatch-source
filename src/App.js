@@ -59,7 +59,7 @@ class App extends Component {
           <Route path='/overwatch-career-stats' render={()=><CareerStatsPage />} />
           <Route path='/contact-us' render={()=><ContactPage />} />
           <Route path='/overwatch-game-modes' render={()=><GameModeListPage />} />
-          <Route path='/overwatch-heros' render={()=><HerosListPage oneHero={this.oneHero} hero={this.state.hero} />} />
+          <Route path='/overwatch-heroes' render={()=><HerosListPage oneHero={this.oneHero} hero={this.state.hero} />} />
           <Route path='/hero' render={()=><HeroPage oneHero={this.oneHero} hero={this.state.hero} />} />
           <Route path='/overwatch-league' render={()=><LeaguePage />} />
           <Route path='/overwatch-maps' render={()=><MapsListPage oneMap={this.oneMap} map={this.state.map} />} />

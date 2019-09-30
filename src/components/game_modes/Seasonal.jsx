@@ -23,41 +23,17 @@ const Seasonal = () => {
             where ranking and placement is similar to normal competitive play.
           </p>
         </div>
-        <Divider section hidden />
-        <div>
-        <h3 className='seasonal-maps-used'>Maps Used:</h3>
-          <div>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-            <Divider />
-          </div>
-        </div>
+        <Divider section />
         <h3 className='seasonal-modes'>Junkenstein's Revenge</h3>
         <div>
           <p className='about-seasonal-game-mode'>
             This game mode is a 4 play co-op style match where players must work together 
-            to defend the castle gates. If all players die, the match ends. The only heros 
+            to defend the castle gates. If all players die, the match ends. The only heroes 
             avalible to players are McCree, Soldier: 76, Hanzo and Ana. This mode gets harder 
             the longer the match lasts.
           </p>
         </div>
-        <Divider section hidden />
-        <div>
-        <h3 className='seasonal-maps-used'>Maps Used:</h3>
-          <div>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-            <Divider />
-          </div>
-        </div>
+        <Divider section />
         <h3 className='seasonal-modes'>Mei's Snowball Offensive</h3>
         <div>
           <p className='about-seasonal-game-mode'>
@@ -68,19 +44,7 @@ const Seasonal = () => {
             opponent in one shot.
           </p>
         </div> 
-        <Divider section hidden />
-        <div>
-        <h3 className='seasonal-maps-used'>Maps Used:</h3>
-          <div>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-            <Divider />
-          </div>
-        </div> 
+        <Divider section />
         <h3 className='seasonal-modes'>Yeti Hunt</h3>
         <div>
           <p className='about-seasonal-game-mode'>
@@ -92,14 +56,6 @@ const Seasonal = () => {
           </p>
         </div>
         <Divider section hidden />
-        <div>
-        <h3 className='seasonal-maps-used'>Maps Used:</h3>
-          <div>
-            <Link to='/map'>
-              <h4 className='seasonal-mode-map-list'>Horizon Lunar Colony</h4>
-            </Link>
-          </div>
-        </div>
       </div>
     </div>
   );

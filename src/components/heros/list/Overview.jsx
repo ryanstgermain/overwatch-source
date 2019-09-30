@@ -5,18 +5,18 @@ import { Divider } from 'semantic-ui-react';
 const Overview = () => {
   return (
     <div>
-      <h1 className='hero-list-overview-title'>Overwatch Heros</h1>
+      <h1 className='hero-list-overview-title'>Overwatch Heroes</h1>
       <div className='section-hero-list'>
         <div className='section-left'>
           <p className='hero-overview'>
-            <strong>T</strong>here are currently 31 playable heros in Overwatch. 
+            <strong>T</strong>here are currently 31 playable heroes in Overwatch. 
             Each hero has a weapon/weapons that is unique to them. Abilities are 
             different throughout the hero list as each hero is suitable for 
             different situations (Shift and E keys). Normal abilities do not consume 
             ammunition but do have cooldowns after every use. Passive abilities 
-            (abilities that don't cause damage) are seen with a few heros and can 
+            (abilities that don't cause damage) are seen with a few heroes and can 
             be used instantly. Each hero has an "ultimate ability" that has to be 
-            charged and is very powerful (Q key). All heros have at least 2 abilities, 
+            charged and is very powerful (Q key). All heroes have at least 2 abilities, 
             where some have more.
           </p>
         </div>

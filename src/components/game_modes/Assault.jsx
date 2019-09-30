@@ -15,27 +15,6 @@ const Assault = () => {
         </p>
         <Divider />
       </div>
-      <div>
-        <h3 className='maps-used'>Maps Used:</h3>
-        <div>
-          <Divider />
-          <Link to='/map'>
-            <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
-          </Link>
-          <Link to='/map'>
-            <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
-          </Link>
-          <Link to='/map'>
-            <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
-          </Link>
-          <Link to='/map'>
-            <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
-          </Link>
-          <Link to='/map'>
-            <h4 className='mode-map-list'>Horizon Lunar Colony</h4>
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }

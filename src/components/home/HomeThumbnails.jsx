@@ -4,9 +4,9 @@ import { Card, Button, Divider } from 'semantic-ui-react';
 
 const HomeThumbnails = () => {
   const heros = (
-    <Link to='/overwatch-heros'>
+    <Link to='/overwatch-heroes'>
       {/* <Button className='view-button'>View</Button> */}
-      <Button className='view-button'>Overwatch Heros</Button>
+      <Button className='view-button'>Overwatch Heroes</Button>
     </Link>
   )
 

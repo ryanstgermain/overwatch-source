@@ -9,7 +9,7 @@ const Gameplay = () => {
       <div className='about-overwatch-overview-align'>
         <p className='about-overwatch-overview'>
           Overwatch is a 6v6 style game where players fight for victory. 5 different 
-          game modes, 28 different maps, and 31 different heros makes the game playable 
+          game modes, 28 different maps, and 31 different heroes makes the game playable 
           in many different ways so you will never get bored. The leveling system 
           creates an immersive feel for the player so you always have something work for. 
           Loot boxes and portraits are rewards for good gameplay and make you want to 

@@ -9,13 +9,6 @@ class MapsListPage extends Component {
     return (
       <>
         <Overview />
-        {/* <div className='map-margin-top'>
-          <h2 className='map-category-title'>Standard Maps</h2>
-          <p className='map-category'>
-            Maps used in standard play. There are currently 21 different maps used in quick play and competitive play.
-          </p>
-          <Divider section className='divider-mobile-hidden' />    
-        </div> */}
         <div className='map-list-layout'>
           <div className='map-row'>
             <div className='map-width'>
@@ -34,7 +27,6 @@ class MapsListPage extends Component {
             </div>
           </div>
         </div>
-        {/* <Divider className='divider-desktop-hidden' /> */}
         <Divider section hidden />
       </>
     );

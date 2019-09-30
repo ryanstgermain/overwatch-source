@@ -16,8 +16,8 @@ const Footer= () => {
             <h4>Explore</h4>
             <Divider inverted />
             <div>
-              <Link to='/overwatch-heros'>
-                <h5>Overwatch Heros</h5>
+              <Link to='/overwatch-heroes'>
+                <h5>Overwatch Heroes</h5>
               </Link>
               <Link to='/overwatch-maps'>
                 <h5>Overwatch Maps</h5>
