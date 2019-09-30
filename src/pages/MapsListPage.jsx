@@ -9,22 +9,15 @@ class MapsListPage extends Component {
     return (
       <>
         <Overview />
-        <div className='map-list-layout'>
-          <div className='map-row'>
-            <div className='map-width'>
-              <h3 className='map-type'>Assault</h3>
-              <p className='map-type-overview'>
-                Assault maps have two areas where players must capture or defend depending on what side you are on. 
-                The attacking team must work together to capture both objective A and B to score a victory. The 
-                defending team must ensure the the attacking team does not capture any points.
-              </p>
-              <Divider />
-              <div>
-                <Link to='/map'>
-                  <MapThumbnail oneMap={this.props.oneMap} /> 
-                </Link>  
-              </div>
+        <div className='map-row'>
+          <div className='map-width'>
+            <Divider className='divider-mobile-hidden' />
+            <div>
+              <Link to='/map'>
+                <MapThumbnail oneMap={this.props.oneMap} /> 
+              </Link>  
             </div>
+            <Divider className='divider-mobile-hidden' />
           </div>
         </div>
         <Divider section hidden />

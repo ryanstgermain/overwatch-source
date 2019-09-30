@@ -9,10 +9,16 @@ class HerosListPage extends Component {
     return (
       <>
         <Overview />
-        <div>
-          <Link to='/hero'>
-            <HeroThumbnail oneHero={this.props.oneHero} />  
-          </Link>
+        <div className='map-row'>
+          <div className='map-width'>
+            <Divider className='divider-mobile-hidden' />
+            <div>
+              <Link to='/hero'>
+                <HeroThumbnail oneHero={this.props.oneHero} />  
+              </Link>  
+            </div>
+            <Divider className='divider-mobile-hidden' />
+          </div>
         </div>
         <Divider section hidden />
       </>

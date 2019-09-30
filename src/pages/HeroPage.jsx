@@ -13,7 +13,7 @@ class HeroPage extends Component {
               <div className='hero-title-image'>
                 <h2 className='maps-used'>{hero.hero_name}</h2>
                 <Divider />
-                <Image src={hero.hero_image} size='small' />
+                <Image src={hero.hero_image} className='hero-image-size' />
                 <Divider />
               </div>
               <div className='hero-stats-layout'>

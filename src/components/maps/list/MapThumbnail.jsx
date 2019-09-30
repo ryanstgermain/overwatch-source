@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Image, Divider } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
+import Loader from 'react-loader-spinner'
 
 class MapThumbnail extends Component {
   constructor(){
@@ -28,7 +29,7 @@ class MapThumbnail extends Component {
   render(){
     const { maps, isLoading } = this.state;
     if (isLoading) {
-      return <p>Loading...</p>
+      return <div className='loader-align'><Loader type='Grid' color='#FF9D00' height={120} width={120} /></div>
     }
     return (
       <div className='map'>
@@ -36,12 +37,11 @@ class MapThumbnail extends Component {
           <div className='map-padding'>
             <Image onClick={this.props.oneMap} id={map.id} key={map.id} src={map.map_image} className='map-image-size' />
             <div onClick={this.props.oneMap} id={map.id} key={map.id} className='map-name-container'>
-              <span className='map-font'>{map.map_name} </span>
-              <span className='map-font-type'>- {map.map_type}</span>    
+              <span onClick={this.props.oneMap} id={map.id} key={map.id} className='map-font'>{map.map_name} </span>
+              <span onClick={this.props.oneMap} id={map.id} key={map.id} className='map-font-type'>- {map.map_type}</span>    
             </div>
           </div>
         )}
-        <Divider fitted />
       </div>
     );
   }

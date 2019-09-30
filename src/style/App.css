@@ -512,6 +512,8 @@ strong {
     }
 }
 
+/* Hero List Page  */
+
 .hero-list-overview-title {
     text-align: center;
     padding: 1.5em;
@@ -552,15 +554,13 @@ strong {
     width: 75%;
 }
 
-.hero-image-size {
-    height: 188px;
-    transition: 0.1s;
-    width: 200px;;
-}
-
-.hero-image-size:hover {
+.hero-thumbnail-size:hover {
     transition: 0.1s;
     padding: 0.2em;
+}
+
+.loader-align {
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -618,6 +618,11 @@ strong {
 .hero-title-image, .hero-stats-layout {
     padding: 1em;
     height: 500px;
+}
+
+.hero-image-size {
+    height: 325px;
+    width: auto;
 }
 
 .hero-stats {

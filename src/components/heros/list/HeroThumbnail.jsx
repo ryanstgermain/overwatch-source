@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Image, Divider } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
+import Loader from 'react-loader-spinner'
 
 class HeroThumbnail extends Component {
   constructor(){
@@ -9,6 +10,7 @@ class HeroThumbnail extends Component {
         hero: [],
         hero_name: '',
         hero_image: '',
+        hero_thumbnail: '',
         hero_quote: '',
         hero_real_name: '',
         hero_age: '',
@@ -60,16 +62,16 @@ class HeroThumbnail extends Component {
   render(){
     const { heros, isLoading } = this.state;
     if (isLoading) {
-      return <p>Loading...</p>
+      return <div className='loader-align'><Loader type='Grid' color='#FF9D00' height={120} width={120} /></div>
     }
     return (
       <div className='map'>
         {heros.map(hero =>
           <div className='map-padding'>
-            <Image onClick={this.props.oneHero} id={hero.id} key={hero.id} src={hero.hero_image} className='hero-image-size' />
+            <Image onClick={this.props.oneHero} id={hero.id} key={hero.id} src={hero.hero_thumbnail} size='small' className='hero-thumbnail-size' />
             <div onClick={this.props.oneHero} id={hero.id} key={hero.id} className='map-name-container'>
-              <span className='map-font'>{hero.hero_name} </span>
-              <span className='map-font-type'>- {hero.hero_role}</span>    
+              <span onClick={this.props.oneHero} id={hero.id} key={hero.id} className='map-font'>{hero.hero_name} </span>
+              <span onClick={this.props.oneHero} id={hero.id} key={hero.id} className='map-font-type'>- {hero.hero_role}</span>    
             </div>
           </div>
         )}
