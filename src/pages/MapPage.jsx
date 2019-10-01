@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Image, Divider } from 'semantic-ui-react';
+import ReactPlayer from 'react-player';
 
 class MapPage extends Component {
   render() {
-  const src = 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/9/94/Kings_Row_003.jpg/1600px-Kings_Row_003.jpg?version=5f0192e2b912bcd56b8cdacff9b0876c'
     return (
       this.props.map.map(map => {
         return (
@@ -20,37 +20,30 @@ class MapPage extends Component {
                   <div>
                     <h3 className='maps-used'>Location</h3>
                     <span className='home-font'>{map.map_location}</span>    
+                  </div>
+                  <div>
+                    <h3 className='maps-used'>Type</h3>
+                    <span className='home-font'>{map.map_type}</span>   
+                  </div>
                 </div>
-                <Divider />
-                <div>
-                  <h3 className='seasonal-maps-used'>Type</h3>
-                  <span className='home-font'>{map.map_type}</span>   
-                </div>
               </div>
-            </div>
-            <div className='map-description-layout'>
-              <div>
-                <h2 className='maps-used'>Map Description</h2>
-                <Divider className='divider-mobile-hidden' />    
-              </div>
-              <div className='map-description-align-center'>
-                <p className='map-description'>{map.map_description}</p>    
-              </div>
-            </div>
-            </div>
-            <Divider section hidden />
-            <div className='map-screenshot-layout'>
-              <h2 className='maps-used'>Screenshots</h2>
-              <Divider />
-              <Image.Group className='map-screenshot-align' size='medium'>
-                <Image src={src} />
-                <Image src={src} />
-                <Image src={src} />
-                <Image src={src} />
-                <Image src={src} />
-              </Image.Group>
               <Divider section hidden />
-            </div>  
+              <div className='map-description-layout'>
+                <div>
+                  <h2 className='maps-used'>Map Description</h2>
+                  <Divider className='divider-mobile-hidden' />    
+                </div>
+                <div className='map-description-align-center'>
+                  <p className='map-description'>{map.map_description}</p>    
+                </div>
+              </div>
+            </div>
+            <div className='video-section'>
+              <div className='hero-video-center'>
+                <ReactPlayer url={map.map_video} controls />  
+              </div>
+              <Divider section hidden />
+            </div>
           </div>  
         )
       })

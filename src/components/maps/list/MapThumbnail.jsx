@@ -13,7 +13,6 @@ class MapThumbnail extends Component {
         map_location: '',
         map_type: '',
         map_description: '',
-        map_screenshot: [],
         map_video: '',
         isLoading: false
       }
