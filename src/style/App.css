@@ -714,27 +714,6 @@ strong {
     text-align: center;
 }
 
-.map-type {
-    font-family: 'bg-bolder-it';
-    font-size: 2em;
-    color: #FF9D00;
-    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
-}
-
-.map-type-arcade-other {
-    font-family: 'bg-bolder-it';
-    font-size: 2em;
-    color: #FF9D00;
-    text-shadow: 0px 4px 5px rgba(150, 150, 150, 1);
-    text-align: center;
-}
-
-.map-type-overview {
-    font-family: 'bg-thin-it';
-    font-size: 1.5em;
-    color: #405275;
-}
-
 .map-font {
     font-family: 'bg-medium-it';
     font-size: 1.5em;
@@ -762,33 +741,8 @@ strong {
     margin-top: 6em;
 }
 
-.map-row-arcade-other {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.section-width {
-    width: 100%;
-}
-
 .map-width {
     width: 80%;
-}
-
-.map-margin-top {
-    margin-top: 6em;
-}
-
-.map-arcade-width {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-}
-
-.maps-list-arcade-other {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .map-image-size {
@@ -819,14 +773,14 @@ strong {
 }
 
 @media screen and (max-width: 600px) {
-    .map-row, .map-row-arcade-other {
+    .map-row {
         display: flex;
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .map-width, .map-arcade-width {
+    .map-width {
         width: 100%;
         margin-top: 4em;
     }
@@ -836,26 +790,6 @@ strong {
     .maps-list {
         display: flex;
         justify-content: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .maps-list-arcade-other {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .map-arcade-width-other {
-        margin-top: 4em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .map-type, .map-type-overview {
-        text-align: center;
     }
 }
 
@@ -1018,16 +952,6 @@ strong {
     /* text-shadow: 0px 4px 5px rgba(150, 150, 150, 1); */
 }
 
-.mode-map-list {
-    text-align: center;
-}
-
-.mode-map-list:hover {
-    text-align: center;
-    color: #242f42;
-    /* text-shadow: 0px 4px 5px rgba(150, 150, 150, 1); */
-}
-
 .about-seasonal-game-mode {
     font-family: 'bg-low';
     font-size: 1.5em;
@@ -1083,16 +1007,6 @@ strong {
     -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     text-align: center;
-}
-
-.rules-and-scoring {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.rules-and-scoring-section {
-    width: 40%;
 }
 
 .competitive-section {
@@ -1158,16 +1072,9 @@ strong {
 }
 
 @media screen and (max-width: 600px) {
-    .rules-and-scoring-section, .competitive-ranking {
+    .competitive-ranking {
         width: 100%;
         padding: 1em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .rules-and-scoring {
-        display: flex;
-        flex-direction: column;
     }
 }
 
