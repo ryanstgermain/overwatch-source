@@ -669,6 +669,7 @@ strong {
     font-family: 'bg-low';
     font-size: 1.5em;
     text-align: center;
+    width: 100%;
 }
 
 .weapons-section {
@@ -684,6 +685,10 @@ strong {
 .hero-video-center {
     display: flex;
     justify-content: center;
+}
+
+.hero-detail-width {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {

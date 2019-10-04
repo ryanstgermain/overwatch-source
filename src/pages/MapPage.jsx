@@ -38,6 +38,7 @@ class MapPage extends Component {
                 </div>
               </div>
             </div>
+            <Divider section hidden className='divider-desktop-hidden' />
             <div className='video-section'>
               <div className='hero-video-center'>
                 <ReactPlayer url={map.map_video} controls />  

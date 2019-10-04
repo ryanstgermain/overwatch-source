@@ -54,7 +54,7 @@ class HeroPage extends Component {
                 </div>
               </div> 
             </div>
-            <div>
+            <div className='hero-detail-width'>
               <div className='about-hero-layout'>
                 <span className='hero-quote-text'>"{hero.hero_quote}"</span>
                 <Divider hidden />
