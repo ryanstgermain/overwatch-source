@@ -13,12 +13,14 @@ class HeroPage extends Component {
               <div className='hero-title-image'>
                 <h2 className='maps-used'>{hero.hero_name}</h2>
                 <Divider />
-                <Image src={hero.hero_image} className='hero-image-size' />
-                <Divider />
+                <div className='hero-image-align'>
+                  <Image src={hero.hero_image} className='hero-image-size' />  
+                </div>
+                <Divider className='divider-mobile-hidden' />
               </div>
               <div className='hero-stats-layout'>
                 <h2 className='maps-used'>Hero Info & Stats</h2>
-                <div>
+                <div className='hero-stat-mobile-padding'>
                   <Divider />
                   <div className='hero-stat-section'>
                     <div className='hero-stats'>
@@ -56,7 +58,9 @@ class HeroPage extends Component {
             </div>
             <div className='hero-detail-width'>
               <div className='about-hero-layout'>
-                <span className='hero-quote-text'>"{hero.hero_quote}"</span>
+                <div className='hero-quote-text'>
+                  <span>"{hero.hero_quote}"</span>  
+                </div>
                 <Divider hidden />
                 <h2 className='maps-used'>Hero Bio</h2>
                 <Divider hidden />

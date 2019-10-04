@@ -691,17 +691,61 @@ strong {
     width: 100%;
 }
 
+.hero-image-align {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .individual-hero-upper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .weapons-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .weapon-details {
         margin-top: 3em;
         margin-bottom: 3em;
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .hero-info-margin-top {
         margin-top: 3em;
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-bio-text {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-stat-mobile-padding {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-stat-text-result {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-quote-text {
+        font-size: 1.8em;
     }
 }
 
