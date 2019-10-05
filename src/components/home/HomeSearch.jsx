@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Button, Container, Divider, Input, Dropdown } from 'semantic-ui-react';
 // import Loader from 'react-loader-spinner';
 
@@ -30,23 +30,10 @@ class HomeSearch extends Component {
   //     })
   // }
 
-  // getProfile = () => {
-  //   fetch('https://ow-api.com/v1/stats/pc/us/ǤŘĀŅĐÞĄ-1676/complete')
-  //     .then(result => result.json())
-  //     .then((response) => {
-  //       this.setState({
-  //         profile: [response]
-  //       })
-  //     })
-  //   console.log(this.getProfile, 'clicked')
-  // }
-
   getProfile = () => {
-    const BASE_PATH = 'https://ow-api.com/v1/stats/'
-    // let SEPARATOR = '-'
-    // let COMPLETE = 'complete'
-    let URL = `${BASE_PATH}\`${this.state.platform}\`${this.state.region}\`${this.state.name}\`-\`${this.state.battletag}\`complete\``
-    fetch(URL)
+    this.setState({ isLoading: true });
+
+    fetch('https://ow-api.com/v1/stats/pc/us/ǤŘĀŅĐÞĄ-1676/complete')
       .then(result => result.json())
       .then((response) => {
         this.setState({
@@ -55,6 +42,24 @@ class HomeSearch extends Component {
       })
     console.log(this.getProfile, 'clicked')
   }
+
+  // getProfile = () => {
+  //   this.setState({ isLoading: true });
+
+  //   const BASE_PATH = 'https://ow-api.com/v1/stats/'
+  //   // let SEPARATOR = '-'
+  //   // let COMPLETE = 'complete'
+  //   let URL = `${BASE_PATH}\`${this.state.platform}\`${this.state.region}\`${this.state.name}\`-\`${this.state.battletag}\`complete\``
+  //   fetch(URL)
+  //     .then(result => result.json())
+  //     .then((response) => {
+  //       this.setState({
+  //         profile: [response],
+  //         isLoading: false
+  //       })
+  //     })
+  //   console.log(this.getProfile, 'clicked')
+  // }
 
   handleInput = (event) => {
     const { value, name } = event.target
@@ -111,7 +116,7 @@ class HomeSearch extends Component {
       },
     ]
 
-    const { platform, region } = this.state
+    // const { platform, region } = this.state
 
     return (
       <div>

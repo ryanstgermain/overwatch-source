@@ -133,13 +133,13 @@ strong {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background-color: #242424; */
     background-color: rgb(255, 186, 74); 
     /* background-color: #FF9D00;  */
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+    /* position: -webkit-sticky; Safari */
+    /* position: sticky; */
+    /* top: 0; */
 }
 
 .nav-link-font {

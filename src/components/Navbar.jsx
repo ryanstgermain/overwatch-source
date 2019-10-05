@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Image } from 'semantic-ui-react';
+import { Image, Sticky } from 'semantic-ui-react';
 
 const Navbar = () => {
   return (
+    <Sticky>
       <ul className='nav-list'>
         <li>
           <Link to='/' className='nav-link-font'>Home</Link>
@@ -21,6 +22,7 @@ const Navbar = () => {
           <Link to='/contact-us' className='nav-link-font'>Contact</Link>
         </li>
       </ul>
+    </Sticky>
   );
 }
 
