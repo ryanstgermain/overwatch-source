@@ -118,7 +118,9 @@ class HomeSearch extends Component {
         <Container text textAlign='center'>
           <div className='home-search-section'>
             <span className='home-font'>Looking for an Overwatch profile? Search for one below.</span>
-            <Divider />
+            <Divider fitted />
+            <span className='home-search-warning'>REMINDER: Overwatch profile MUST be set to public public to view most information.</span> 
+            <Divider hidden />
             <Dropdown
               selection
               name='platform'

@@ -223,6 +223,12 @@ strong {
     color: #405275;
 }
 
+.home-search-warning {
+    font-family: 'bg-low-it';
+    font-size: 1.3em;
+    color: #FF9D00;
+}
+
 .home-data-section {
     display: flex;
     justify-content: space-evenly;
