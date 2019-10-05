@@ -673,7 +673,7 @@ strong {
     font-family: 'bg-low';
     font-size: 1.5em;
     text-align: center;
-    width: 100%;
+    width: 65%;
 }
 
 .weapons-section {
@@ -731,6 +731,7 @@ strong {
 
 @media screen and (max-width: 600px) {
     .hero-bio-text {
+        width: 100%;
         padding: 1em;
     }
 }
@@ -750,6 +751,19 @@ strong {
 @media screen and (max-width: 600px) {
     .hero-quote-text {
         font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-image-size {
+        height: 250px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-title-image {
+        height: 350px;
     }
 }
 
