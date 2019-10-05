@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-import { Button, Container, Divider, Input, Dropdown } from 'semantic-ui-react';
-// import Loader from 'react-loader-spinner';
+import { Link } from 'react-router-dom';
+import { Button, Container, Divider, Input, Dropdown, Modal, Image } from 'semantic-ui-react';
+import Loader from 'react-loader-spinner';
 
 class HomeSearch extends Component {
   constructor(){
@@ -37,7 +37,8 @@ class HomeSearch extends Component {
       .then(result => result.json())
       .then((response) => {
         this.setState({
-          profile: [response]
+          profile: [response],
+          isLoading: false
         })
       })
     console.log(this.getProfile, 'clicked')
@@ -117,6 +118,27 @@ class HomeSearch extends Component {
     ]
 
     // const { platform, region } = this.state
+    const { profile, isLoading } = this.state;
+    var profileLoaded;
+
+    if (isLoading) {
+      profileLoaded = <div className='loader-align'><Loader type='ThreeDots' color='#FF9D00' height={100} width={100} /></div>;
+    } else {
+      profileLoaded = profile.map(profile => {
+        return <div className='home-search-modal-profile'>
+                <div>
+                  <Image src={profile.levelIcon} size='tiny' className='level-icon-image-modal' />
+                  <Image src={profile.prestigeIcon} size='tiny' className='prestige-icon-image-modal' />  
+                </div>
+                {/* <Image src={profile.icon} size='tiny' className='test' /> */}
+                <div className='modal-profile-info'>
+                  <h1 className='modal-profile-name'>{profile.name}</h1>
+                  <h1>Level:</h1>
+                  <h1>{profile.level}</h1>  
+                </div>
+              </div>;
+      })
+    }
 
     return (
       <div>
@@ -147,10 +169,15 @@ class HomeSearch extends Component {
               <Input onChange={this.handleInput} name='battletag' className='input-width' fluid placeholder='Battletag' key='battletag'  />  
             </div>
             <Divider />
-            {/* <Link to='/profile' onClick={this.getProfile}>
-              <Button className='home-learn-button'>Search</Button>  
-            </Link> */}
-            <Button onClick={this.getProfile} className='home-learn-button'>Search</Button>
+            <Modal trigger={<Button onClick={this.getProfile} className='home-learn-button'>Search</Button>} closeIcon>
+              <Modal.Content>
+                <Link to='/profile'>
+                  <div>
+                    {profileLoaded}
+                  </div>  
+                </Link>
+              </Modal.Content>
+            </Modal>
           </div>
         </Container>   
       </div>
