@@ -14,6 +14,7 @@ import HeroPage from './pages/HeroPage';
 import LeaguePage from './pages/LeaguePage';
 import MapsListPage from './pages/MapsListPage';
 import MapPage from './pages/MapPage';
+import ProfilePage from './pages/ProfilePage';
 import CompetitivePlayPage from './pages/CompetitivePlayPage';
 import Footer from './components/Footer';
 
@@ -44,7 +45,6 @@ class App extends Component {
           hero: [response]
         })
       })
-      console.log(this.oneHero, 'clicked')
   }
 
   render() {
@@ -64,6 +64,7 @@ class App extends Component {
           <Route path='/overwatch-league' render={()=><LeaguePage />} />
           <Route path='/overwatch-maps' render={()=><MapsListPage oneMap={this.oneMap} map={this.state.map} />} />
           <Route path='/map' render={()=><MapPage oneMap={this.oneMap} map={this.state.map} />} />
+          <Route path='/profile' render={()=><ProfilePage />} />
           <Route path='/overwatch-competitive-play' render={()=><CompetitivePlayPage />} />
           <Footer />
         </>  

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react';
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 
 class MapThumbnail extends Component {
   constructor(){

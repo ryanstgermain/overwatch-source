@@ -283,7 +283,11 @@ strong {
 
 .input-align {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.input-width {
+    width: 49%;
 }
 
 @media (min-width: 1024px) {
