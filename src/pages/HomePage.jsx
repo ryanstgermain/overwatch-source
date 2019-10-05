@@ -9,8 +9,8 @@ class HomePage extends Component {
     return (
       <>
         <HomeBanner />
-        <HomeNavigation />
         <HomeSearch />
+        <HomeNavigation />
         <HomeThumbnails />
       </>
     );
