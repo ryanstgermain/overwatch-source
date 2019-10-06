@@ -76,18 +76,6 @@ class HomeSearch extends Component {
 
   handleChange = (e, { name, value }) => this.setState({ [name]: value })
 
-  // handleChange(event) {
-  //   this.setState({name: event.target.name})
-  // }
-
-  searchInputted = () => {
-    if (this.state.allInputted === false) {
-      alert('Please fill out all the fields.')
-    } else {
-      this.getProfile()
-    }
-  }
-
   render() {
     const platformOptions = [
       {
