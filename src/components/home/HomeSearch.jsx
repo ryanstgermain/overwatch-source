@@ -116,7 +116,6 @@ class HomeSearch extends Component {
     // const { platform, region } = this.state
     const { profile, isLoading, allInputted } = this.state;
 
-    var searchProfile;
     var profileLoaded;
     
     if (isLoading) {
@@ -137,11 +136,13 @@ class HomeSearch extends Component {
               </div>;
       })
     };
+    
+    var searchProfile;
 
     if (allInputted === false) {
       searchProfile = <Button disabled className='home-learn-button'>Search</Button>;
     } else {
-      searchProfile = <Modal trigger={<Button onClick={this.searchInputted} className='home-learn-button'>Search</Button>} closeIcon>
+      searchProfile = <Modal trigger={<Button onClick={this.getProfile} className='home-learn-button'>Search</Button>} closeIcon>
                          <Modal.Content>
                            <Link to='/profile'>
                              <div>
@@ -177,8 +178,8 @@ class HomeSearch extends Component {
             />
             <Divider section />
             <div className='input-align'>
-              <Input onChange={this.handleInput} name='name' className='input-width' fluid placeholder='Name' key='name' />
-              <Input onChange={this.handleInput} name='battletag' className='input-width' fluid placeholder='Battletag' key='battletag'  />  
+              <Input onChange={this.handleInput} name='name' className='input-width' fluid placeholder='Name' key='name' type='string' />
+              <Input onChange={this.handleInput} name='battletag' className='input-width' fluid placeholder='Battletag (0-9)' key='battletag' type='number' />  
             </div>
             <Divider />
             {searchProfile}
