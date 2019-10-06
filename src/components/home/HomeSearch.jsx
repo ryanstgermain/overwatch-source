@@ -80,6 +80,14 @@ class HomeSearch extends Component {
   //   this.setState({name: event.target.name})
   // }
 
+  searchInputted = () => {
+    if (this.state.allInputted === false) {
+      alert('Please fill out all the fields.')
+    } else {
+      this.getProfile()
+    }
+  }
+
   render() {
     const platformOptions = [
       {
@@ -118,9 +126,11 @@ class HomeSearch extends Component {
     ]
 
     // const { platform, region } = this.state
-    const { profile, isLoading } = this.state;
-    var profileLoaded;
+    const { profile, isLoading, allInputted } = this.state;
 
+    var searchProfile;
+    var profileLoaded;
+    
     if (isLoading) {
       profileLoaded = <div className='loader-align'><Loader type='ThreeDots' color='#FF9D00' height={100} width={100} /></div>;
     } else {
@@ -138,7 +148,21 @@ class HomeSearch extends Component {
                 </div>
               </div>;
       })
-    }
+    };
+
+    if (allInputted === false) {
+      searchProfile = <Button disabled className='home-learn-button'>Search</Button>;
+    } else {
+      searchProfile = <Modal trigger={<Button onClick={this.searchInputted} className='home-learn-button'>Search</Button>} closeIcon>
+                         <Modal.Content>
+                           <Link to='/profile'>
+                             <div>
+                               {profileLoaded}
+                             </div>  
+                           </Link>
+                         </Modal.Content>
+                       </Modal>
+    };
 
     return (
       <div>
@@ -169,15 +193,7 @@ class HomeSearch extends Component {
               <Input onChange={this.handleInput} name='battletag' className='input-width' fluid placeholder='Battletag' key='battletag'  />  
             </div>
             <Divider />
-            <Modal trigger={<Button onClick={this.getProfile} className='home-learn-button'>Search</Button>} closeIcon>
-              <Modal.Content>
-                <Link to='/profile'>
-                  <div>
-                    {profileLoaded}
-                  </div>  
-                </Link>
-              </Modal.Content>
-            </Modal>
+            {searchProfile}
           </div>
         </Container>   
       </div>
