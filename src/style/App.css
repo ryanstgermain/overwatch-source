@@ -232,36 +232,55 @@ strong {
 .home-search-modal-profile {
     background-color: #FF9D00;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    align-items: flex-end;
     -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+    height: 80px;
     transition: 0.1s;
 }
 
 .home-search-modal-profile:hover {
-    background-color: rgb(185, 114, 0);
+    background-color: rgb(211, 132, 5);
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    align-items: flex-end;
     -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+    height: 80px;
     transition: 0.1s;
+}
+
+.modal-profile-margin {
+    margin-right: 0.5em;
 }
 
 .modal-profile-name {
     margin-right: 0.5em;
 }
 
-.modal-profile-info {
-    display: flex;
-    align-items: baseline;
+.modal-platform-container {
+    background-color: #405275;
+    padding: 0.5em;
+    height: 59px;
 }
 
-.prestige-icon-image-modal {
-    margin-top: -35px;
+.modal-platform-text {
+    font-size: 2.5em;
+}
+
+.modal-profile-info {
+    display: flex;
+    margin-left: 3em;
+}
+
+.modal-level-container {
+    display: flex;
+    align-items: center;
+    background-color: #405275;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    height: 59px;
 }
 
 .home-data-section {
@@ -384,6 +403,38 @@ strong {
 @media screen and (max-width: 600px) {
     .home-thumbnail-shadows {
         padding: 3em;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
+    .home-search-modal-profile {
+        height: 200px;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    .modal-platform-container, .modal-level-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modal-profile-info{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modal-profile-margin{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modal-profile-name{
+        font-size: 2em;
+        margin-left: -1em;
     }
 }
 

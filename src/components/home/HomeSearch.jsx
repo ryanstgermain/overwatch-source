@@ -123,15 +123,17 @@ class HomeSearch extends Component {
     } else {
       profileLoaded = profile.map(profile => {
         return <div className='home-search-modal-profile'>
-                <div>
-                  <Image src={profile.levelIcon} size='tiny' className='level-icon-image-modal' />
-                  <Image src={profile.prestigeIcon} size='tiny' className='prestige-icon-image-modal' />  
+                <div className='test'>
+                  <Image src={profile.icon} size='tiny' className='modal-profile-margin' />
                 </div>
-                {/* <Image src={profile.icon} size='tiny' className='test' /> */}
                 <div className='modal-profile-info'>
                   <h1 className='modal-profile-name'>{profile.name}</h1>
-                  <h1>Level:</h1>
-                  <h1>{profile.level}</h1>  
+                  <div className='modal-level-container'>
+                    <h2>{profile.level}</h2>   
+                  </div>
+                  <div className='modal-platform-container'>
+                    <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2>  
+                  </div>
                 </div>
               </div>;
       })
