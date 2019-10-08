@@ -58,41 +58,10 @@ class App extends Component {
       })
   }
 
-  // componentDidUpdate() {
-  //   const BASE_PATH = 'https://ow-api.com/v1/stats/:platform/:region/:battletag/complete'
-  //   let SEPARATOR = '-'
-  //   let URL = `${BASE_PATH}\`${this.state.platform}\`${this.state.region}\`${this.state.name}\`${SEPARATOR}\`${this.state.battletag}\``
-  //   fetch(URL)
-  //     .then(result => result.json())
-  //     .then((response) => {
-  //       this.setState({
-  //         profile: [response]
-  //       })
-  //     })
-  // }
-
-  getProfile = () => {
-    this.setState({ isLoading: true });
-
-    fetch('https://ow-api.com/v1/stats/pc/us/ǤŘĀŅĐÞĄ-1676/complete')
-      .then(result => result.json())
-      .then((response) => {
-        this.setState({
-          profile: [response],
-          isLoading: false
-        })
-      })
-    console.log(this.getProfile, 'clicked')
-  }
-
   // getProfile = () => {
   //   this.setState({ isLoading: true });
 
-  //   const BASE_PATH = 'https://ow-api.com/v1/stats/'
-  //   // let SEPARATOR = '-'
-  //   // let COMPLETE = 'complete'
-  //   let URL = `${BASE_PATH}\`${this.state.platform}\`${this.state.region}\`${this.state.name}\`-\`${this.state.battletag}\`complete\``
-  //   fetch(URL)
+  //   fetch('https://ow-api.com/v1/stats/pc/us/ǤŘĀŅĐÞĄ-1676/complete')
   //     .then(result => result.json())
   //     .then((response) => {
   //       this.setState({
@@ -102,6 +71,20 @@ class App extends Component {
   //     })
   //   console.log(this.getProfile, 'clicked')
   // }
+
+  getProfile = () => {
+    this.setState({ isLoading: true });
+
+    fetch(`https://ow-api.com/v1/stats/${this.state.platform}/${this.state.region}/${this.state.name}-${this.state.battletag}/complete`)
+      .then(result => result.json())
+      .then((response) => {
+        this.setState({
+          profile: [response],
+          isLoading: false
+        })
+      })
+    console.log(this.getProfile, 'clicked')
+  }
 
   handleInput = (event) => {
     const { value, name } = event.target
