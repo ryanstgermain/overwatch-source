@@ -34,7 +34,8 @@ class App extends Component {
         name: '',
         battletag: '',
         isLoading: false,
-        allInputted: false
+        allInputted: false,
+        error: null
       }
   }
 
@@ -69,21 +70,26 @@ class App extends Component {
   //         isLoading: false
   //       })
   //     })
-  //   console.log(this.getProfile, 'clicked')
   // }
 
   getProfile = () => {
     this.setState({ isLoading: true });
 
     fetch(`https://ow-api.com/v1/stats/${this.state.platform}/${this.state.region}/${this.state.name}-${this.state.battletag}/complete`)
-      .then(result => result.json())
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Profile not found ...');
+        }
+      })
       .then((response) => {
         this.setState({
           profile: [response],
           isLoading: false
         })
       })
-    console.log(this.getProfile, 'clicked')
+      .catch(error => this.setState({ error, isLoading: false }));
   }
 
   handleInput = (event) => {
@@ -138,45 +144,49 @@ class App extends Component {
     ]
 
     // const { platform, region } = this.state
-    const { profile, isLoading, allInputted } = this.state;
+    const { profile, isLoading, error, allInputted } = this.state;
 
     var profileLoaded;
-    
-    if (isLoading) {
-      profileLoaded = <div className='loader-align'><Loader type='ThreeDots' color='#FF9D00' height={100} width={100} /></div>;
+
+    if (error) {
+      profileLoaded = <h2>{error.message}</h2>;
     } else {
-      profileLoaded = profile.map(profile => {
-        return (
-          <div profile={this.state.profile} key={profile.name}>
-            {profile.private === true ? (
-              <div className='modal-profile-private'>
-                <Icon color='black' name='lock' size='big' bordered />
-                <Divider hidden />
-                <div>
-                  <h2 className='profile-private-header'>Sorry, this profile is private!</h2>
-                  <Divider section />
-                  <h3 className='profile-private-note'>Note: As of the June 26th, 2018 patch, Career Profiles will no longer be public by default (now defaults to Friends Only). An option to make Career Profiles visible has been added under Options > Social > Profile Visibility.</h3>  
-                </div>
-              </div>
-            ) : (
-              <div className='home-search-modal-profile'>
-                <div>
-                  <Image src={profile.icon} size='tiny' className='modal-profile-margin' />
-                </div>
-                <div className='modal-profile-info'>
-                  <h1 className='modal-profile-name'>{profile.name}</h1>
-                  <div className='modal-level-container'>
-                    <h2>{profile.level}</h2>   
+      if (isLoading) {
+        profileLoaded = <div className='loader-align'><Loader type='ThreeDots' color='#FF9D00' height={100} width={100} /></div>;
+      } else {
+        profileLoaded = profile.map(profile => {
+          return (
+            <div profile={this.state.profile} key={profile.name}>
+              {profile.private === true ? (
+                <div className='modal-profile-private'>
+                  <Icon color='black' name='lock' size='big' bordered />
+                  <Divider hidden />
+                  <div>
+                    <h2 className='profile-private-header'>Sorry, this profile is private!</h2>
+                    <Divider section />
+                    <h3 className='profile-private-note'>Note: As of the June 26th, 2018 patch, Career Profiles will no longer be public by default (now defaults to Friends Only). An option to make Career Profiles visible has been added under Options > Social > Profile Visibility.</h3>  
                   </div>
-                  <div className='modal-platform-container'>
-                    <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2>  
+                </div>
+              ) : (
+                <div className='home-search-modal-profile'>
+                  <div>
+                    <Image src={profile.icon} size='tiny' className='modal-profile-margin' />
                   </div>
-                </div>   
-              </div>
-            )}
-          </div>  
-        )
-      });
+                  <div className='modal-profile-info'>
+                    <h1 className='modal-profile-name'>{profile.name}</h1>
+                    <div className='modal-level-container'>
+                      <h2>{profile.level}</h2>   
+                    </div>
+                    <div className='modal-platform-container'>
+                      <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2>  
+                    </div>
+                  </div>   
+                </div>
+              )}
+            </div>  
+          )
+        });
+      }
     };
     
     var searchProfile;
