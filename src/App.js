@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './style/App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Button, Container, Divider, Input, Dropdown, Modal, Image } from 'semantic-ui-react';
+import { Button, Container, Divider, Input, Dropdown, Modal, Image, Icon } from 'semantic-ui-react';
 import Loader from 'react-loader-spinner';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -166,8 +166,14 @@ class App extends Component {
         return (
           <div profile={this.state.profile} key={profile.name}>
             {profile.private === true ? (
-              <div>
-                <h1>poop</h1>
+              <div className='modal-profile-private'>
+                <Icon color='black' name='lock' size='big' bordered />
+                <Divider hidden />
+                <div>
+                  <h2 className='profile-private-header'>Sorry, this profile is private!</h2>
+                  <Divider section />
+                  <h3 className='profile-private-note'>Note: As of the June 26th, 2018 patch, Career Profiles will no longer be public by default (now defaults to Friends Only). An option to make Career Profiles visible has been added under Options > Social > Profile Visibility.</h3>  
+                </div>
               </div>
             ) : (
               <div className='home-search-modal-profile'>
@@ -220,7 +226,7 @@ class App extends Component {
                     <div className='home-search-section'>
                       <span className='home-font'>Looking for an Overwatch profile? Search for one below.</span>
                       <Divider fitted />
-                      <span className='home-search-warning'>REMINDER: Overwatch profile MUST be set to public public to view most information.</span> 
+                      <span className='home-search-warning'>REMINDER: Overwatch profile MUST be set to public public to view information.</span> 
                       <Divider hidden />
                       <Dropdown
                         selection

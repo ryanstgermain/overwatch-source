@@ -350,6 +350,24 @@ strong {
     width: 49%;
 }
 
+.modal-profile-private {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-private-header {
+    text-align: center;
+}
+
+.profile-private-note {
+    font-family: 'bg-low-it';
+    font-size: 1.5em;
+    text-align: center;
+    color: #405275;
+}
+
 @media (min-width: 1024px) {
     .divider-desktop-hidden {
         display: none;
