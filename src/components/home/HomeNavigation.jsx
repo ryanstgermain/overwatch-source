@@ -12,20 +12,6 @@ const HomeNavigation = () => {
           <Button className='home-learn-button'>Learn More</Button>
         </Link>
       </div>
-      <div className='home-data-section'>
-        <Link to='/overwatch-career-stats'>
-          <div className='home-data'>
-            <span className='home-data-font'>Overwatch Career Stats</span>
-          </div>  
-          <Divider className='divider-mobile-hidden' />
-        </Link>
-        <Link to='/overwatch-league'>
-          <div className='home-data'>
-            <span className='home-data-font'>Overwatch League Data</span>
-          </div>  
-          <Divider className='divider-mobile-hidden' />
-        </Link>
-      </div>
     </Container>
   );
 }

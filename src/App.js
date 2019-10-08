@@ -10,12 +10,10 @@ import HomeNavigation from './components/home/HomeNavigation';
 import HomeThumbnails from './components/home/HomeThumbnails';
 import AboutOverwatchPage from './pages/AboutOverwatchPage';
 import AboutPage from './pages/AboutPage';
-import CareerStatsPage from './pages/CareerStatsPage';
 import ContactPage from './pages/ContactPage';
 import GameModeListPage from './pages/GameModeListPage';
 import HerosListPage from './pages/HerosListPage';
 import HeroPage from './pages/HeroPage';
-import LeaguePage from './pages/LeaguePage';
 import MapsListPage from './pages/MapsListPage';
 import MapPage from './pages/MapPage';
 import ProfilePage from './pages/ProfilePage';
@@ -222,6 +220,7 @@ class App extends Component {
             )=>
               <div>
                 <HomeBanner />
+                <HomeNavigation />
                 <div>
                   <Container text textAlign='center'>
                     <div className='home-search-section'>
@@ -254,18 +253,15 @@ class App extends Component {
                     </div>
                   </Container>   
                 </div>
-              <HomeNavigation />
               <HomeThumbnails />
             </div>
           } />
           <Route path='/overwatch-about' render={()=><AboutOverwatchPage />} />
           <Route path='/about-us' render={()=><AboutPage />} />
-          <Route path='/overwatch-career-stats' render={()=><CareerStatsPage />} />
           <Route path='/contact-us' render={()=><ContactPage />} />
           <Route path='/overwatch-game-modes' render={()=><GameModeListPage />} />
           <Route path='/overwatch-heroes' render={()=><HerosListPage oneHero={this.oneHero} hero={this.state.hero} />} />
           <Route path='/hero' render={()=><HeroPage oneHero={this.oneHero} hero={this.state.hero} />} />
-          <Route path='/overwatch-league' render={()=><LeaguePage />} />
           <Route path='/overwatch-maps' render={()=><MapsListPage oneMap={this.oneMap} map={this.state.map} />} />
           <Route path='/map' render={()=><MapPage oneMap={this.oneMap} map={this.state.map} />} />
           <Route path='/profile' render={()=><ProfilePage profile={this.state.profile} platform={this.state.platform} region={this.state.region} name={this.state.name} battletag={this.state.battletag} />} />

@@ -67,9 +67,6 @@ const Footer= () => {
               <Link to='/contact-us'>
                 <h5>Contact Us</h5>
               </Link>
-              <Link to='/overwatch-career-stats'>
-                <h5>Career Stats</h5>
-              </Link>
             </div>
           </div>
         </div>
