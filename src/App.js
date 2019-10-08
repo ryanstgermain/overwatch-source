@@ -149,7 +149,17 @@ class App extends Component {
     var profileLoaded;
 
     if (error) {
-      profileLoaded = <h2>{error.message}</h2>;
+      profileLoaded = 
+        <div>
+          <h2 className='profile-private-header'>{error.message}</h2>
+          <Divider hidden />
+          <div>
+            <h3 className='profile-private-note'>Can't find what you're looking for? Here are some helpful tips.</h3>
+            <Divider section />
+            <p className='profile-private-note'>Be sure to enter the player BattleTag, XBL GamerTag or PSN ID exactly, case-sensitive, including any spaces or punctuation.</p>
+            <p className='profile-private-note'>The "#" is not needed when entering the battletag. Just enter the numeric value.</p>
+          </div>
+        </div>
     } else {
       if (isLoading) {
         profileLoaded = <div className='loader-align'><Loader type='ThreeDots' color='#FF9D00' height={100} width={100} /></div>;
@@ -168,20 +178,22 @@ class App extends Component {
                   </div>
                 </div>
               ) : (
-                <div className='home-search-modal-profile'>
-                  <div>
-                    <Image src={profile.icon} size='tiny' className='modal-profile-margin' />
-                  </div>
-                  <div className='modal-profile-info'>
-                    <h1 className='modal-profile-name'>{profile.name}</h1>
-                    <div className='modal-level-container'>
-                      <h2>{profile.level}</h2>   
+                <Link to='/profile'>
+                  <div key={profile.name} className='home-search-modal-profile'>
+                    <div>
+                      <Image src={profile.icon} size='tiny' className='modal-profile-margin' />
                     </div>
-                    <div className='modal-platform-container'>
-                      <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2>  
-                    </div>
-                  </div>   
-                </div>
+                    <div className='modal-profile-info'>
+                      <h1 className='modal-profile-name'>{profile.name}</h1>
+                      <div className='modal-level-container'>
+                        <h2>{profile.level}</h2>   
+                      </div>
+                      <div className='modal-platform-container'>
+                        <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2>  
+                      </div>
+                    </div>   
+                  </div>  
+                </Link>
               )}
             </div>  
           )
@@ -196,11 +208,7 @@ class App extends Component {
     } else {
       searchProfile = <Modal trigger={<Button onClick={this.getProfile} className='home-learn-button'>Search</Button>} closeIcon>
                         <Modal.Content>
-                          <Link to='/profile'>
-                            <div key={profile.name}>
-                              {profileLoaded}
-                            </div>  
-                          </Link>
+                          {profileLoaded}
                         </Modal.Content>
                       </Modal>;
     };
