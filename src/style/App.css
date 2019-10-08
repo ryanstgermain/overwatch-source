@@ -406,12 +406,6 @@ strong {
     }
 }
 
-/* @media screen and (max-width: 600px) {
-    .home-search-modal-profile {
-        height: 200px;
-    }
-} */
-
 @media screen and (max-width: 600px) {
     .modal-platform-container, .modal-level-container{
         display: none;

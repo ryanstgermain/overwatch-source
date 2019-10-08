@@ -1,39 +1,20 @@
-import React, { Component } from 'react';
-import Loader from 'react-loader-spinner';
+import React from 'react';
+import { Image } from 'semantic-ui-react';
 
-class ProfilePage extends Component {
-  constructor(){
-    super()
-      this.state = {
-        profile: [],
-        platform: '',
-        region: '',
-        name: '',
-        battletag: '',
-        isLoading: false
-      }
-  }
-
-  componentDidMount() {
-    this.setState({ isLoading: true });
-
-    fetch('https://ow-api.com/v1/stats/:platform/:region/:battletag/complete')
-      .then(result => result.json())
-      .then((data => this.setState({ profile: data, isLoading: false })));
-  }
-
-  render() {
-    const { profile, isLoading } = this.state;
-
-    if (isLoading) {
-      return <div className='loader-align'><Loader type='Grid' color='#FF9D00' height={120} width={120} /></div>
-    }
-    return (
-      <>
-        <h1>Profile page</h1>
-      </>
-    );
-  }
+const ProfilePage = (props) => {
+  return (
+    props.profile.map(profile => {
+      return (
+        <div key={`profile ${profile.name}`}>
+          <h1>poop</h1>
+          <h1>{profile.name}</h1>
+          <h1>{props.platform}</h1>
+          <Image src={profile.levelIcon} size='tiny' />
+          <Image src={profile.prestigeIcon} size='tiny' />
+        </div>
+      )
+    })
+  )
 }
 
 export default ProfilePage;
