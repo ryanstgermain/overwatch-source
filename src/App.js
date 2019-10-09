@@ -186,8 +186,20 @@ class App extends Component {
                       <div className='modal-level-container'>
                         <h2>{profile.level}</h2>   
                       </div>
-                      <div className='modal-platform-container'>
-                        <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2>  
+                      <div>
+                        {/* <h2 className='modal-platform-text'>{this.state.platform.toUpperCase()}</h2> */}
+                        {(() => {
+                          switch(this.state.platform) {
+                            case 'pc':
+                              return <Icon color='grey' name='windows' size='huge' />;
+                            case 'xbox':
+                              return <Icon color='grey' name='xbox' size='big' />;
+                            case 'playstation':
+                              return <Icon color='grey' name='playstation' size='big' />;
+                            default:
+                              return null;
+                          }
+                        })()}
                       </div>
                     </div>   
                   </div>  
