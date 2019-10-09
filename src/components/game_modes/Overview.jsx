@@ -34,17 +34,6 @@ const Overview = () => {
                 <span className='home-data-font'>Overwatch Maps</span>
               </div>  
             </Link>
-            <Link to='/overwatch-career-stats'>
-              <div className='home-data'>
-                <span className='home-data-font'>Overwatch Career Stats</span>
-              </div>  
-            </Link>
-            <Link to='/overwatch-league'>
-              <div className='home-data'>
-                <span className='home-data-font'>Overwatch League Data</span>
-              </div>  
-              <Divider className='divider-mobile-hidden' />
-            </Link> 
           </div>
         </div>    
       </div>

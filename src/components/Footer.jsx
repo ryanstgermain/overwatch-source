@@ -25,9 +25,6 @@ const Footer= () => {
               <Link to='/overwatch-game-modes'>
                 <h5>Overwatch Game Modes</h5>
               </Link>
-              <Link to='/overwatch-league'>
-                <h5>Overwatch League</h5>
-              </Link>
               <Link to='/overwatch-competitive-play'>
                 <h5>Overwatch Competitive Play</h5>
               </Link>

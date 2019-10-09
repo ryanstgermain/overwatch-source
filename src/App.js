@@ -78,7 +78,7 @@ class App extends Component {
         if (response.ok) {
           return response.json();
         } else {
-          throw new Error('Profile not found ...');
+          throw new Error('Profile not found');
         }
       })
       .then((response) => {

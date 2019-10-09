@@ -24,13 +24,6 @@ const HomeThumbnails = () => {
     </Link>
   )
 
-  const league = (
-    <Link to='/overwatch-league'>
-      {/* <Button className='view-button'>View</Button> */}
-      <Button className='view-button'>Overwatch League</Button>
-    </Link>
-  )
-
   return (
     <div className='home-thumbnails'>
       <div>
@@ -57,15 +50,6 @@ const HomeThumbnails = () => {
           // header='Overwatch Game Modes'
           extra={modes}
           color='pink'
-        />  
-        <Divider />
-      </div>
-      <div className='thumbnails-margin-top'>
-        <Card
-          image='https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2019/07/16134425/OVR_SummerGames19_012_png_jpgcopy.jpg'
-          // header='Overwatch League'
-          extra={league}
-          color='green'
         />  
         <Divider />
       </div>

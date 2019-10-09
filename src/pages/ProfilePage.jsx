@@ -11,6 +11,8 @@ const ProfilePage = (props) => {
           <h1>{props.platform}</h1>
           <Image src={profile.levelIcon} size='tiny' />
           <Image src={profile.prestigeIcon} size='tiny' />
+          <h1>{profile.quickPlayStats.awards.medals}</h1>
+          <Image src={profile.ratings[0].rankIcon} size='tiny' />
         </div>
       )
     })
