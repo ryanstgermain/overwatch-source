@@ -33,6 +33,7 @@ const Seasons = () => {
                 <span className='seasons-section-info-text'>17</span>
                 <span className='seasons-section-info-text'>Role Queue Beta</span>
                 <span className='seasons-section-info-text-current'>18</span>
+                <span className='seasons-section-info-text'>19</span>
                 <Divider section />
               </div>    
             </div>
@@ -59,6 +60,7 @@ const Seasons = () => {
                 <span className='seasons-section-info-text'>June 30th, 2019</span>
                 <span className='seasons-section-info-text'>Aug 13th, 2019</span>
                 <span className='seasons-section-info-text-current'>Sep 1st, 2019</span>                
+                <span className='seasons-section-info-text'>November 1st, 2019</span>
                 <Divider section /> 
               </div>    
             </div>
@@ -84,7 +86,8 @@ const Seasons = () => {
                 <span className='seasons-section-info-text'>June 30th, 2019</span>
                 <span className='seasons-section-info-text'>Aug 13th, 2019</span>
                 <span className='seasons-section-info-text'>Sep 1st, 2019</span>
-                <span className='seasons-section-info-text-current'>-</span>
+                <span className='seasons-section-info-text-current'>October 31st, 2019</span>
+                <span className='seasons-section-info-text'>-</span>
                 <Divider section /> 
               </div>   
             </div>    
