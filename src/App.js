@@ -176,7 +176,7 @@ class App extends Component {
                   </div>
                 </div>
               ) : (
-                <Link to='/profile'>
+                <Link to={`/profile/${this.state.platform}/${this.state.region}/${profile.name}`}>
                   <div key={profile.name} className='home-search-modal-profile'>
                     <div>
                       <Image src={profile.icon} size='tiny' className='modal-profile-margin' />
